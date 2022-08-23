@@ -3,6 +3,13 @@ Thumbs.db
 db.json
 *.log
 node_modules/
-public/
+public/2022/
+public/archives/
+public/fancybox/
+public/css/
+public/js/
+public/live2dw/
+public/index.html
+public/search.xml
 .deploy*/
 _multiconfig.yml
