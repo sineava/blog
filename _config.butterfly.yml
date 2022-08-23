@@ -1,0 +1,9 @@
+background: url(/img/background.jpg)
+# 插入代码
+inject:
+  head:
+    - <link rel="stylesheet" href="css/custom.css" />
+
+menu:
+  首页: / || fas fa-home || faa-tada
+  时间轴: /archives/ || fas fa-archive
