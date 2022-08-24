@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 安知鱼
-subtitle: '向前走吧,不要再荒废时间了,不要再随便的对待生活了😀'
+title: 知秋
+subtitle: '😀'
 description: '生活明朗,万物可爱.'
 keywords:
-author: 安知鱼
+author: 知秋
 language: zh-CN
 timezone: ''
 
@@ -128,7 +128,7 @@ live2d:
 
 search:
   path: search.xml
-  field: all
+  field: post
   content: true
 
 # hexo-filter-gitcalendar

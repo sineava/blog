@@ -368,12 +368,12 @@ button:not(:disabled) {
   background: transparent !important;
 }
 
-/* 头图透明 */
+/* 头图透明 */ 
 #page-header {
   background: transparent !important;
 }
 
 #nav {
-  background-color: rgba(0,0,0,0) !important;
+  background-color: transparent !important;
   box-shadow: none !important;
 }

@@ -55,7 +55,8 @@ social:
 #     - Twikoo
 
 avatar:
-  img: 'https://cdn.jsdelivr.net/npm/file-assets@1.0.1/img/avatar.jpg'
+  img: 'https://cdn.jsdelivr.net/npm/file-assets@1.0.3/img/avatar.png'
+  effect: false
 
 # Sponsor/reward
   reward:
