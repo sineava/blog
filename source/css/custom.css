@@ -5,6 +5,13 @@
   font-weight: lighter;
 }
 
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
 div#menus {
   font-family: 'ZhuZiAYuanJWD';
 }
@@ -376,4 +383,9 @@ button:not(:disabled) {
 #nav {
   background-color: transparent !important;
   box-shadow: none !important;
+}
+
+.card-info-social-icons {
+  display: flex;
+  justify-content: space-evenly;
 }

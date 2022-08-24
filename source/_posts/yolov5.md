@@ -2,6 +2,7 @@
 title: yolov5目标检测
 cover: 'https://cdn.jsdelivr.net/npm/file-assets@1.0.3/img/bg-02.jpg'
 background: url(https://cdn.jsdelivr.net/npm/file-assets@1.0.3/img/bg-02.jpg)
+tags: yolo
 ---
 
 ## 安装
