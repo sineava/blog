@@ -51,9 +51,9 @@ social:
   RSS: atom.xml || icon-rss || faa-tada
   # QQ: tencent://Message/?Uin=2268025923&amp;websiteName=local.edu.com:8888=&amp;Menu=yes || icon-QQ1 || f
   
-# comments:
-#   use:
-#     - Twikoo
+comments:
+  use:
+    - Twikoo
 
 avatar:
   img: 'https://cdn.jsdelivr.net/npm/file-assets@1.0.3/img/avatar.png'
