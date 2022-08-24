@@ -5,11 +5,18 @@
 # Site
 title: 安知鱼
 subtitle: '向前走吧,不要再荒废时间了,不要再随便的对待生活了😀'
-description: ''
+description: '生活明朗,万物可爱.'
 keywords:
-author: John Doe
-language: en
+author: 安知鱼
+language: zh-CN
 timezone: ''
+
+# avatar
+avatar:
+  img: /img/avatar.jpg
+
+# read mode
+readmode: true
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -147,7 +154,3 @@ gitcalendar:
   container: .recent-post-item(style='width:100%;height:auto;padding:10px;') #父元素容器，需要使用pug语法
   gitcalendar_css: https://cdn.cbd.int/hexo-filter-gitcalendar/lib/gitcalendar.css
   gitcalendar_js: https://cdn.cbd.int/hexo-filter-gitcalendar/lib/gitcalendar.js
-
-aplayerInject:
-  enable: true
-  per_page: true
