@@ -1,7 +1,7 @@
 ---
 title: Typescript初识
-cover: 'https://cdn.jsdelivr.net/npm/file-assets@1.0.3/img/bg-01.jpg'
-background: url(https://cdn.jsdelivr.net/npm/file-assets@1.0.3/img/bg-01.jpg)
+cover: 'https://cdn.jsdelivr.net/npm/file-assets@1.0.5/img/bg-01.jpg'
+background: url(https://cdn.jsdelivr.net/npm/file-assets@1.0.5/img/bg-01.jpg)
 tags: typescript
 ---
 
@@ -61,3 +61,7 @@ interface User {
 const { name: aliasName = 'no name', age: aliasAge }: User = { age: 20 }
 console.log(aliasName) // no name
 ```
+
+---
+## 资源参考
+- [typescript文档](https://www.tslang.cn/docs)
