@@ -616,24 +616,36 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # Effect Speed Options (打字效果速度參數)
   startDelay: 300 # time before typing starts in milliseconds
-  typeSpeed: 150 # type speed in milliseconds
-  backSpeed: 50 # backspacing speed in milliseconds
+  typeSpeed: 200 # type speed in milliseconds
+  backSpeed: 100 # backspacing speed in milliseconds
   # loop (循環打字)
   loop: true
   # source 調用第三方服務
   # source: false 關閉調用
-  # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
-  # source: 2  調用一句網（簡體） http://yijuzhan.com/
-  # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
+  # source: https://hitokoto.cn/
+  # source: http://yijuzhan.com/
+  # source: https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
+    - 阳光正好，春风不燥
+    - 有冬要来，有雪入怀
+    - 书画一船烟外月，湖山十里镜中人
+    - 客子光阴诗卷里，杏花消息雨声中
+    - 漠漠梨花烂漫，纷纷柳絮飞残
+    - 一树梨花一溪月，不知今夜属何人
+    - 尘中见月心亦闲，况是清秋仙府间
+    - 杳杳与人期，遥遥有所思。山川千里间，风月两边时
+    - 荷花十里，清风鉴水，明月天衣
+    - 月落星稀天欲明，孤灯未灭梦难成
+    - 日暮酒醒人已远，满天风雨下西楼
+    - 雁啼红叶天，人醉黄花地，芭蕉雨声秋梦里
 
 # Loading Animation (加載動畫)
 preloader: false
