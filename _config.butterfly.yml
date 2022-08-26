@@ -7,8 +7,6 @@ inject:
   bottom:
     # 控制台打印消息
     # - <script async rel="prefetch" src="/js/console.js"></script>
-    # 自定义图标
-    - <script src="/js/icon.js"></script>
     # 站点公祭日自动变灰判定
     - <script async src="/js/grayscale.js"></script>
     # 浮动动画特效
