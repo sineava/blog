@@ -58,16 +58,18 @@ avatar:
   effect: false
 
 # Sponsor/reward
-  reward:
-    enable: true
-    coinAudio: https://cdn.cbd.int/akilar-candyassets@1.0.36/audio/coin.mp3
-    QR_code:
-  CDN:
-    # main
-    main_css: /css/index.css
-    jquery: https://cdn.cbd.int/jquery@latest/dist/jquery.min.js
-    main: /js/main.js
-    utils: /js/utils.js
+reward:
+  enable: true
+  coinAudio: https://cdn.cbd.int/akilar-candyassets@1.0.36/audio/coin.mp3
+  QR_code:
+    - img: https://cdn.jsdelivr.net/gh/sineava/picture-bed/img/wechat.png
+      link: 
+      text: 微信
+
+CDN:
+  option:
+    coin_js: /js/coin.js
+    coin_css: /css/coin.css
 
 pjax:
   enable: true
