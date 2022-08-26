@@ -160,8 +160,8 @@ div#category {
 }
 
 /* 头图透明 */
-#page-header {
-  background: transparent !important;
+#page-header.full_page {
+  background-color: transparent !important;
 }
 
 #rightside > div > button {
