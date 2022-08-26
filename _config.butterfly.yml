@@ -1,4 +1,4 @@
-background: url(/img/background.jpg)
+background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed//img/bg-07.jpg)
 # 插入代码
 inject:
   head:
@@ -54,7 +54,7 @@ comments:
     - Twikoo
 
 avatar:
-  img: 'https://cdn.jsdelivr.net/npm/file-assets@1.0.5/img/avatar.png'
+  img: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed/common/avatar.png'
   effect: false
 
 # Sponsor/reward
