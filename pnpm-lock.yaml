@@ -12,6 +12,7 @@ specifiers:
   hexo: ^6.2.0
   hexo-bilibili-bangumi: ^1.8.2
   hexo-butterfly-clock: ^1.0.7
+  hexo-butterfly-footer-beautify: ^1.0.6
   hexo-butterfly-tag-plugins-plus: ^1.0.17
   hexo-butterfly-wowjs: ^1.0.5
   hexo-filter-gitcalendar: ^1.0.9
@@ -22,6 +23,7 @@ specifiers:
   hexo-generator-search: ^2.4.3
   hexo-generator-tag: ^1.0.0
   hexo-helper-live2d: ^3.1.1
+  hexo-lazyload-image-better: ^1.1.5
   hexo-renderer-ejs: ^2.0.0
   hexo-renderer-kramed: ^0.1.4
   hexo-renderer-marked: ^5.0.0
@@ -39,6 +41,7 @@ dependencies:
   hexo: 6.2.0
   hexo-bilibili-bangumi: 1.8.2
   hexo-butterfly-clock: 1.0.7
+  hexo-butterfly-footer-beautify: 1.0.6
   hexo-butterfly-tag-plugins-plus: 1.0.17
   hexo-butterfly-wowjs: 1.0.5
   hexo-filter-gitcalendar: 1.0.9
@@ -49,6 +52,7 @@ dependencies:
   hexo-generator-search: 2.4.3
   hexo-generator-tag: 1.0.0
   hexo-helper-live2d: 3.1.1
+  hexo-lazyload-image-better: 1.1.5
   hexo-renderer-ejs: 2.0.0
   hexo-renderer-kramed: 0.1.4
   hexo-renderer-marked: 5.0.0
@@ -3518,6 +3522,10 @@ packages:
     dependencies:
       function-bind: 1.1.1
 
+  /hashmap/2.4.0:
+    resolution: {integrity: sha512-Ngj48lhnxJdnBAEVbubKBJuN1elfVLZJs94ZixRi98X3GCU4v6pgj9qRkHt6H8WaVJ69Wv0r1GhtS7hvF9zCgg==}
+    dev: false
+
   /he/1.2.0:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
     hasBin: true
@@ -3553,6 +3561,12 @@ packages:
 
   /hexo-butterfly-clock/1.0.7:
     resolution: {integrity: sha512-pAyVICBOpmjCjg+qwxonSlcPQ8vsoKGWVRCsVXT1RT0hAqB9d1t81Gl7JpA7dWd+xdvkUaWX7QIvjyaGLp1nig==}
+    dependencies:
+      pug: 3.0.2
+    dev: false
+
+  /hexo-butterfly-footer-beautify/1.0.6:
+    resolution: {integrity: sha512-zGA0b1BgL0CTmh3mKOvSh5TY6o3HW8tt/Xnhr+8g+I0MrzDcaBUXx9Ci2jyZRIctgFHS/0pcWd/Ro0Db2py42w==}
     dependencies:
       pug: 3.0.2
     dev: false
@@ -3688,6 +3702,15 @@ packages:
     engines: {node: '>=8.6.0'}
     dependencies:
       sprintf-js: 1.1.2
+    dev: false
+
+  /hexo-lazyload-image-better/1.1.5:
+    resolution: {integrity: sha512-5pn0UD5WpX+2+oKItZuF6ka3Sc/CaqDO82yGCu+7dfBQeHENXdJCY/VxWpIh4Da38m50deulZC12344CXW60yQ==}
+    dependencies:
+      clean-css: 4.2.4
+      hashmap: 2.4.0
+      image-size: 0.8.3
+      uglify-js: 3.4.10
     dev: false
 
   /hexo-log/0.2.0:
@@ -4011,6 +4034,14 @@ packages:
     resolution: {integrity: sha512-PY6Ii8o1jMRA1z4F2hRkH/xN59ox43DavKvD3oDpfurRlOJyAHpifIwpbdv1n4jt4ov0jSpw3kQ4GhJnpBL6WQ==}
     dependencies:
       minimatch: 3.1.2
+    dev: false
+
+  /image-size/0.8.3:
+    resolution: {integrity: sha512-SMtq1AJ+aqHB45c3FsB4ERK0UCiA2d3H1uq8s+8T0Pf8A3W4teyBQyaFaktH6xvZqh+npwlKU7i4fJo0r7TYTg==}
+    engines: {node: '>=6.9.0'}
+    hasBin: true
+    dependencies:
+      queue: 6.0.1
     dev: false
 
   /import-lazy/2.1.0:
@@ -5972,6 +6003,12 @@ packages:
 
   /querystringify/2.2.0:
     resolution: {integrity: sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==}
+    dev: false
+
+  /queue/6.0.1:
+    resolution: {integrity: sha512-AJBQabRCCNr9ANq8v77RJEv73DPbn55cdTb+Giq4X0AVnNVZvMHlYp7XlQiN+1npCZj1DuSmaA2hYVUUDgxFDg==}
+    dependencies:
+      inherits: 2.0.4
     dev: false
 
   /randombytes/2.1.0:
