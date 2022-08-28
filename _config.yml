@@ -235,3 +235,6 @@ tag_plugins:
     iconfont: /js/icon.js
     carousel: https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
     tag_plugins_css: https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+
+encrypt:
+  enable: true

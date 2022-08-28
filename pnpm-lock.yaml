@@ -11,6 +11,7 @@ specifiers:
   gulp-uglify: ^3.0.2
   hexo: ^6.2.0
   hexo-bilibili-bangumi: ^1.8.2
+  hexo-blog-encrypt: ^3.1.6
   hexo-butterfly-clock: ^1.0.7
   hexo-butterfly-footer-beautify: ^1.0.6
   hexo-butterfly-tag-plugins-plus: ^1.0.17
@@ -40,6 +41,7 @@ dependencies:
   gulp-htmlmin: 5.0.1
   hexo: 6.2.0
   hexo-bilibili-bangumi: 1.8.2
+  hexo-blog-encrypt: 3.1.6
   hexo-butterfly-clock: 1.0.7
   hexo-butterfly-footer-beautify: 1.0.6
   hexo-butterfly-tag-plugins-plus: 1.0.17
@@ -3546,6 +3548,10 @@ packages:
       tunnel: 0.0.6
     transitivePeerDependencies:
       - debug
+    dev: false
+
+  /hexo-blog-encrypt/3.1.6:
+    resolution: {integrity: sha512-aq/KiuwoHLTMOOw0WiVtoTpPfx5x5mjkGJAJgKOp7gH0fjW4Pt1uT2n2MOVWBwY2q3qLtWq60na8RL5qmzZL1w==}
     dev: false
 
   /hexo-bunyan/1.0.0:
