@@ -14,7 +14,10 @@ comments: false
   以前一直要同时在多款软件中进行日程规划,学习规划,笔记整理,所以打算集中到一个网站上
 {% endtip %}
 
-## 九月学习计划
+{% timeline %}
+<!-- timeline 9月 -->
 {% checkbox 写篇curl blog %}
 {% checkbox 刷完youtube flutter视频 %}
 {% checkbox 刷完javascript权威指南 %}
+<!-- endtimeline -->
+{% endtimeline %}
