@@ -20,4 +20,8 @@ comments: false
 {% checkbox 刷完youtube flutter视频 %}
 {% checkbox 刷完javascript权威指南 %}
 <!-- endtimeline -->
+
+<!-- timeline 计划中 -->
+{% checkbox 完成图片保真压缩功能 %}
+<!-- endtimeline -->
 {% endtimeline %}
