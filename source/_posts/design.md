@@ -1,0 +1,18 @@
+---
+title: 即时设计上手
+cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/bg-12.jpg'
+background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/bg-12.jpg)
+tags: design
+comments: true
+---
+
+## 常用快捷键
+- R 矩形
+- L 直线
+- O 圆形
+- F 画板
+- P 钢笔
+- T 文本
+- S 切片
+- ctrl + G 分组
+- ctrl + R 重命名

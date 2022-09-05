@@ -23,5 +23,7 @@ comments: false
 
 <!-- timeline 计划中 -->
 {% checkbox 完成图片保真压缩功能 %}
+{% checkbox canvas绘画并拖拽到服务器 %}
+{% checkbox websocket文章 %}
 <!-- endtimeline -->
 {% endtimeline %}
