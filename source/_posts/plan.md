@@ -17,8 +17,8 @@ comments: false
 {% timeline %}
 <!-- timeline 9月 -->
 {% checkbox 写篇curl blog %}
-{% checkbox 刷完youtube flutter视频 %}
-{% checkbox 刷完javascript权威指南 %}
+{% checkbox checked, 刷完youtube flutter视频 %}
+{% checkbox checked, 刷完javascript权威指南 %}
 <!-- endtimeline -->
 
 <!-- timeline 计划中 -->

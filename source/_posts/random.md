@@ -267,6 +267,13 @@ window.onload = () => {
 el.style.color = `#${Math.random().toString().slice(2,8)}`
 ```
 
+## NodeJs
+### 使用es模块
+```bash
+# 方式1:package.json修改type为module
+# 方式2:文件后缀改为.mjs
+```
+
 ## NPM
 
 ### postcss-px-to-viewport
