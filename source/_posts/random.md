@@ -267,6 +267,27 @@ window.onload = () => {
 el.style.color = `#${Math.random().toString().slice(2,8)}`
 ```
 
+```javascript
+// apply
+const add = function (num1, num2) { return num1 + num2; }
+console.log(Reflect.apply(add, undefined, [1, 2]))
+
+// get
+const obj = {
+  name: 'zs'
+}
+console.log(Reflect.get(obj, 'name'))
+
+// has
+console.log(Reflect.has(obj, 'name'))
+
+// ownKeys
+console.log(Reflect.ownKeys(obj)) // ['name']
+
+// set
+Reflect.set(obj, 'name', 'ls')
+```
+
 ## NodeJs
 ### 使用es模块
 ```bash

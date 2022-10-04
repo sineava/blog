@@ -16,9 +16,13 @@ comments: false
 
 {% timeline %}
 <!-- timeline 9月 -->
-{% checkbox 写篇curl blog %}
+{% checkbox checked, 写篇curl blog %}
 {% checkbox checked, 刷完youtube flutter视频 %}
 {% checkbox checked, 刷完javascript权威指南 %}
+<!-- endtimeline -->
+<!-- timeline 10月 -->
+{% checkbox Vue.js设计与实现 p37-p217 %}
+{% checkbox Blender案例视频-随缘 %}
 <!-- endtimeline -->
 
 <!-- timeline 计划中 -->
@@ -26,5 +30,7 @@ comments: false
 {% checkbox canvas绘画并拖拽到服务器 %}
 {% checkbox websocket文章 %}
 {% checkbox 断点续传 %}
+{% checkbox WeakMap %}
+{% checkbox 粘贴图片预览 %}
 <!-- endtimeline -->
 {% endtimeline %}
