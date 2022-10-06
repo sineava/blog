@@ -3,6 +3,8 @@ title: Typescript初识
 cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-01.jpg'
 background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-01.jpg)
 tags: typescript
+date: 2022-08-24 15:53:16
+updated: 2022-09-03 15:53:16
 ---
 
 ## 基础
