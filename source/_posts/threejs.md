@@ -4,6 +4,8 @@ cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-14.jpg'
 background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-14.jpg)
 tags: threejs
 comments: true
+date: 2022-10-07 15:53:16
+updated: 2022-10-07 15:53:16
 ---
 
 ## 加载模型

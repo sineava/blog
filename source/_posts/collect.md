@@ -4,6 +4,8 @@ cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-08.jpg'
 background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-08.jpg)
 tags: collect
 comments: true
+date: 2022-08-27 15:53:16
+updated: 2022-08-27 15:53:16
 ---
 
 {% tip success %}

@@ -4,6 +4,8 @@ cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-02.jpg'
 background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-02.jpg)
 tags: yolo
 comments: true
+date: 2022-08-24 15:53:16
+updated: 2022-08-27 15:53:16
 ---
 
 ## 安装
