@@ -1,7 +1,7 @@
 ---
 title: 前端八股文
-cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/bg-12.jpg'
-background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/bg-12.jpg)
+cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/bg-15.jpg'
+background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-15.jpg)
 tags: interview
 comments: true
 date: 2022-10-09 15:11:07
