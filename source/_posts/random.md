@@ -68,6 +68,34 @@ const promise = navigator.clipboard.write(butter)
 const promise = navigator.clipboard.writeText(text)
 ```
 
+### DOM增删改查
+```js
+// 创建新节点
+createDocumentFragment(node);
+createElement(node);
+createTextNode(text);
+
+// 添加、移除、替换、插入
+appendChild(node)
+removeChild(node)
+replaceChild(new,old)
+insertBefore(new,old)
+
+// 查找
+getElementById()
+getElementsByName()
+getElementsByTagName()
+getElementsByClassName()
+querySelector()
+querySelectorAll()
+
+// 属性操作
+getAttribute(key)
+setAttribute(key, value)
+hasAttribute(key)
+removeAttribute(key)
+```
+
 ## CSS
 
 ### 美化chrome滚动条
@@ -187,7 +215,7 @@ span {
 ## JavaScript
 
 ### Math对象
-```javascript
+```js
 Math.floor() // 向下取整
 Math.ceil()  // 向上取整
 Math.round() // 四舍五入
@@ -195,7 +223,7 @@ Math.trunc()   // 去掉小数
 ```
 
 ### 三元表达式执行
-```javascript
+```js
 const a = () => 'a'
 const b = () => 'b'
 let isA = true;
@@ -203,7 +231,7 @@ let isA = true;
 ```
 
 ### 低频方法
-```javascript
+```js
 const str = 'hello '
 str.repeat(3) // hello hello hello
 
@@ -214,7 +242,7 @@ str.endsWith('bye') // true
 ```
 
 ### 删除dom元素的另类思路
-```javascript
+```js
 // dom结构为ul>li>content+<button class="delete">删除</button>
 // method1
 const delBtn = document.querySelectorAll('.delete');
@@ -235,13 +263,13 @@ ulElem.addEventListener('click', e => {
 ```
 
 ### document.form
-```javascript
+```js
 // 获取id为user-form的form表单
 console.log(document.forms['user-form'])
 ```
 
 ### createElement&踩坑
-```javascript
+```js
 [...document.querySelectorAll('li')].forEach(li => {
   // 如果把这个写在循环外面,只有最后li会添加span元素
   const span = document.createElement('span')
@@ -250,7 +278,7 @@ console.log(document.forms['user-form'])
 ```
 
 ### classList操作
-```javascript
+```js
 const btn = document.querySelector('btn')
 btn.classList.add('remove')
 btn.classList.remove('remove')
@@ -259,7 +287,7 @@ btn.classList.replace('remove','add')
 ```
 
 ### dataset
-```javascript
+```js
 // <div id="user" data-id="1234567890" data-date-of-birth>John Doe</div>
 const user = document.querySelector('#user')
 console.log(user.dataset.id)
@@ -267,10 +295,10 @@ console.log(user.dataset.dataOfBirth)
 ```
 
 ### window.onload与DOMContentLoaded
-```javascript
+```js
 // DOMContentLoaded
 document.addEventListener('DOMContentLoaded', () => {
-	console.log('内容加载完毕')
+  console.log('内容加载完毕')
 })
 
 window.onload = () => {
@@ -279,11 +307,20 @@ window.onload = () => {
 ```
 
 ### 颜色随机
-```javascript
+```js
 el.style.color = `#${Math.random().toString().slice(2,8)}`
 ```
 
-```javascript
+### 类数组转数组
+```js
+Array.prototype.slice.call(arrayLike)
+Array.prototype.splice.call(arrayLike, 0)
+Array.prototype.concat.apply([], arrayLike)
+Array.from(arrayLike)
+```
+
+### Reflect
+```js
 // apply
 const add = function (num1, num2) { return num1 + num2; }
 console.log(Reflect.apply(add, undefined, [1, 2]))

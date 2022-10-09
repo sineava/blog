@@ -10,7 +10,7 @@ updated: 2022-08-29 15:53:16
 
 ## 基础
 ### 地图初始化
-```javascript
+```js
 const viewer = new Viewer(mapRef.value, {
   animation: false, // 时间动画控件
   timeline: false, // 时间轴
@@ -22,7 +22,7 @@ const viewer = new Viewer(mapRef.value, {
 ```
 
 ### 颜色
-```javascript
+```js
 Cesium.Color.RED
 Cesium.Color.RED.withAlpha(0.1) // 透明度
 Cesium.Color.fromCssColorString('#67ADDF') // hex颜色
@@ -30,7 +30,7 @@ Cesium.Color.freeRandom() // 随机颜色
 ```
 
 ### 点绘制
-```javascript
+```js
 viewer.entities.add({
   position: Cesium.Cartesian3.fromDegrees(Number(lng), Number(lat)),
   billboard: {
@@ -45,7 +45,7 @@ viewer.entities.add({
 ```
 
 ### 线绘制
-```javascript
+```js
 viewer.entities.add({
   polyline: {
     positions: Cesium.Cartesian3.fromDegreesArray(y),
@@ -56,7 +56,7 @@ viewer.entities.add({
 ```
 
 ### 面绘制
-```javascript
+```js
 viewer.entities.add({
   polygon: {
     hierarchy: Cesium.Cartesian3.fromDegreesArray(y),
@@ -68,7 +68,7 @@ viewer.entities.add({
 
 ## 进阶
 ### 矢量点位渲染
-```javascript
+```js
 const pointPrimitives = viewer.scene.primitives.add(new Cesium.PointPrimitiveCollection())
 points.forEach(({ lng, lat }: any, idx: number) => {
   const position = Cesium.Cartesian3.fromDegrees(Number(lng), Number(lat))
@@ -83,6 +83,6 @@ points.forEach(({ lng, lat }: any, idx: number) => {
 ```
 
 ### 视图
-```javascript
+```js
 viewer.flyTo(viewer.entities)
 ```

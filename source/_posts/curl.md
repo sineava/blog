@@ -1,7 +1,7 @@
 ---
 title: curl资料整理
-cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-13.jpg'
-background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-13.jpg)
+cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-16.jpg'
+background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-16.jpg)
 tags: curl
 date: 2022-09-28 15:53:16
 updated: 2022-09-29 15:53:16
