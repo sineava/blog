@@ -54,6 +54,20 @@ location.search = '' // 方法2
 history.go(0) // 方法3
 ```
 
+### 获取当前经纬度
+```js
+navigator.geolocation.getCurrentPosition((position) => console.log(position))
+```
+
+### 获取剪切板内容
+```js
+// 包括读写操作
+const promise = navigator.clipboard.read()
+const promise = navigator.clipboard.readText()
+const promise = navigator.clipboard.write(butter)
+const promise = navigator.clipboard.writeText(text)
+```
+
 ## CSS
 
 ### 美化chrome滚动条
