@@ -240,6 +240,6 @@ tag_plugins:
 encrypt:
   enable: true
 
-lazyload:
-  enable: true
-  loadingImg: https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/loading.gif
+# lazyload:
+#   enable: true
+#   loadingImg: https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/loading.gif
