@@ -23,8 +23,11 @@ updated: 2022-10-04 15:53:16
 {% checkbox checked, 刷完javascript权威指南 %}
 <!-- endtimeline -->
 <!-- timeline 10月 -->
-{% checkbox Vue.js设计与实现 p37-p217 %}
-{% checkbox Blender案例视频-随缘 %}
+{% checkbox checked, Vue.js设计与实现 p37-p217 %}
+{% checkbox checked, Blender案例视频-随缘 %}
+<!-- endtimeline -->
+<!-- timeline 11月 -->
+{% checkbox React官方文档 %}
 <!-- endtimeline -->
 
 <!-- timeline 计划中 -->
@@ -34,5 +37,6 @@ updated: 2022-10-04 15:53:16
 {% checkbox 断点续传 %}
 {% checkbox WeakMap %}
 {% checkbox 粘贴图片预览 %}
+{% checkbox Vue官方文档 %}
 <!-- endtimeline -->
 {% endtimeline %}

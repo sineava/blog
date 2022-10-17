@@ -222,6 +222,27 @@ Math.round() // 四舍五入
 Math.trunc()   // 去掉小数
 ```
 
+### bind
+```js
+const module = {
+  val: 2233,
+  getVal() {
+    return this.val
+  }
+}
+
+const getVal = module.getVal
+console.log(getVal()) // undefined
+
+const bindVal = getVal.bind(module)
+console.log(bindVal()) // 2233
+```
+
+### 保留三位小数(小数为0则不保留)
+```js
+Math.round(float * 1000) / 1000
+```
+
 ### 三元表达式执行
 ```js
 const a = () => 'a'
