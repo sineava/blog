@@ -45,3 +45,23 @@ ReactDOM
 // 通过 bind 的方式,事件对象以及更多的参数将会被隐式的进行传递
 <button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>
 ```
+
+#### 路由
+```jsx
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+<Router>
+  <Routes>
+    <Route path="/" element={<div>/</div>} />
+    <Route path="/home" element={<div>/home</div>} />
+  </Routes>
+</Router>
+```
+
+#### {% nota 错误边界,class组件中定义了static getDerivedStateFromError()或componentDidCatch()这两个生命周期方法中的任意一个（或两个）时，那么它就变成一个错误边界 %}
+> 错误边界无法捕获如下场景:
+> - 事件处理
+> - 异步代码
+> - 服务端渲染
+> - 自身抛出来的错误(非子组件)
+
