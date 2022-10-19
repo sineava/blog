@@ -46,6 +46,21 @@ ReactDOM
 <button onClick={this.deleteRow.bind(this, id)}>Delete Row</button>
 ```
 
+#### 返回多dom
+```jsx
+class Els extends Component {
+  // 不需要用额外的元素包裹列表元素！
+  render() {
+    // 不要忘记设置 key :)
+    return [
+      <li>a</li>,
+      <li>b</li>,
+      <li>c</li>
+    ]
+  }
+}
+```
+
 #### 路由
 ```jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
@@ -58,10 +73,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 </Router>
 ```
 
-#### {% nota 错误边界,class组件中定义了static getDerivedStateFromError()或componentDidCatch()这两个生命周期方法中的任意一个（或两个）时，那么它就变成一个错误边界 %}
+#### {% bubble 错误边界,class组件中定义了static getDerivedStateFromError()或componentDidCatch()这两个生命周期方法中的任意一个（或两个）时，那么它就变成一个错误边界 %}
 > 错误边界无法捕获如下场景:
 > - 事件处理
 > - 异步代码
 > - 服务端渲染
 > - 自身抛出来的错误(非子组件)
 
+---
+{% referfrom '1','react官方文档','https://reactjs.org' %}
+{% referfrom '2','babel编译器','https://babeljs.io/repl' %}
