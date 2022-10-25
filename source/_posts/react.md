@@ -5,7 +5,7 @@ background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-17.jpg)
 tags: react
 comments: true
 date: 2022-10-16 10:13:16
-updated: 2022-10-16 10:13:16
+updated: 2022-10-25 10:05:16
 ---
 
 ### 基础
@@ -73,12 +73,24 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 </Router>
 ```
 
-#### {% bubble 错误边界,class组件中定义了static getDerivedStateFromError()或componentDidCatch()这两个生命周期方法中的任意一个（或两个）时，那么它就变成一个错误边界 %}
-> 错误边界无法捕获如下场景:
+#### 错误边界
+> {% bubble 错误边界,class组件中定义了static getDerivedStateFromError()或componentDidCatch()这两个生命周期方法中的任意一个（或两个）时，那么它就变成一个错误边界 %}无法捕获如下场景:
 > - 事件处理
 > - 异步代码
 > - 服务端渲染
 > - 自身抛出来的错误(非子组件)
+
+#### 动态class
+```html
+<!-- 写法1 -->
+<i className={flag && 'active'} />
+<!-- 写法2 -->
+<i className={flag ? 'active' : null} />
+<!-- 写法3 -->
+<i className={['check-radio', flag ? 'active' : null].join(' ')}/>
+<!-- 写法4 -->
+<i className={`check-radio ${flag ? 'active' : null}`} />
+```
 
 ---
 {% referfrom '1','react官方文档','https://reactjs.org' %}

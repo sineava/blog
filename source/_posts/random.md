@@ -47,6 +47,23 @@ const container = document.querySelector('.container')
 const cloneContainer = container.cloneNode(true) // true:深度克隆,不传只可能表层元素
 ```
 
+### 拖动图片到指定区域
+```html
+<img class="img" src="https://gw.alicdn.com/i4/710600684/O1CN01BSkFT41GvJe0mLJBv_!!710600684.jpg_Q75.jpg_.webp" draggable="true" />
+<div class="box" ondrop="drop(event)" ondragover="dragover(event)" />
+
+<script>
+  const dragover = (e) => {
+    e.preventDefault()
+    e.dataTransfer.dropEffect = 'move'
+  }
+  const drop = (e) => {
+    e.preventDefault()
+    e.target.appendChild(document.querySelector('.img'))
+  }
+</script>
+```
+
 ### 页面刷新
 ```js
 location.reload // 方法1
@@ -210,6 +227,13 @@ select {
 span {
   color: var(--font-color);
 }
+```
+
+## Tailwind CSS
+### 1像素底部border
+```html
+<!-- tailwindcss border-b-1不会生效(2像素就会生效🙂) -->
+<div className="border-b-[1px] border-[#817C7C]"></div>
 ```
 
 ## JavaScript

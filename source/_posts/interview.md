@@ -11,6 +11,43 @@ updated: 2022-10-09 15:11:07
 前端常见面试题整理
 {% endnote %}
 
+## HTML
+### 语义化标签
+```html
+<header /> 头部
+<nav /> 导航栏
+<aside /> 侧边栏
+<section /> 区块
+<main /> 主要区域
+<article /> 主要内容
+<footer /> 底部
+```
+
+### 常见的meta标签
+```html
+<!-- 描述文档编码 -->
+<meta charset="utf-8" />
+<!-- 关键词 -->
+<meta name="keywords" content="关键词" />
+<!-- 页面描述 -->
+<meta name="description" content="页面描述" />
+<!-- 页面重定向与刷新 -->
+<meta http-equiv="refresh" content="0;url=" />
+<!-- 视口(用户网页的可视区域) -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<!-- 
+  viewport content参数
+  1. width: 宽度
+  2. height: 高度
+  3. initial-scale: 初始缩放比例
+  4. maximum-scale: 最大缩放比例
+  5. minimum-scale: 最小缩放比例
+  6. user-scalable: 是否允许用户缩放(yes/no)
+-->
+<!-- 搜索引擎索引方式 -->
+<meta name="robots" content="index,follow" />
+```
+
 ## JavaScript
 ### 介绍 js 的基本数据类型
 > js 一共有六种基本数据类型,分别是 {% label Undefined green %}、{% label Null green %}、{% label Boolean green %}、{% label Number green %}、{% label String green %},还有在 ES6 中新增的{% label Symbol green %}和 ES10 中新增的 {% label BigInt green %} 类型。Symbol 代表创建后独一无二且不可变的数据类型,它的出现我认为主要是为了解决可能出现的全局变量冲突的问题。BigInt 是一种数字类型的数据,它可以表示任意精度格式的整数,使用 BigInt 可以安全地存储和操作大整数,即使这个数已经超出了 Number 能够表示的安全整数范围。
@@ -99,3 +136,7 @@ function format2(number) {
 ### 说下防抖节流的区别
 > 函数防抖是指在事件被触发 n 秒后再执行回调，如果在这 n 秒内事件又被触发，则重新计时。这可以使用在一些点击请求的事件上，避免因为用户的多次点击向后端发送多次请求。
 > 函数节流是指规定一个单位时间，在这个单位时间内，只能有一次触发事件的回调函数执行，如果在同一个单位时间内某事件被触发多次，只有一次能生效。节流可以使用在 scroll 函数的事件监听上，通过事件节流来降低事件调用的频率。
+
+---
+{% referfrom '1.','HTML表单input类型','https://www.w3schools.com/html/html_form_input_types.asp' %}
+{% referfrom '2.','表单拖放api','https://developer.mozilla.org/zh-CN/docs/Web/API/HTML_Drag_and_Drop_API' %}
