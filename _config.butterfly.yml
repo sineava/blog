@@ -17,6 +17,7 @@ inject:
 menu:
   首页: / || fas fa-home || faa-tada
   时间轴: /archives/ || fas fa-archive
+  书籍: /book/ || fas fa-heart
   追番: /bangumis/ || icon-bilibili || faa-tada
 
 aplayerInject:

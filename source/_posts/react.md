@@ -92,6 +92,14 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 <i className={`check-radio ${flag ? 'active' : null}`} />
 ```
 
+#### StrictMode作用
+- 识别不安全的生命周期
+- 使用过时字符串 ref API 的警告
+- 使用废弃的 findDOMNode 方法的警告
+- 检测意外的副作用
+- 检测过时的 context API
+- 确保可复用的状态
+
 ---
 {% referfrom '1','react官方文档','https://reactjs.org' %}
 {% referfrom '2','babel编译器','https://babeljs.io/repl' %}

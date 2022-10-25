@@ -40,6 +40,8 @@ updated: 2022-10-04 15:53:16
 ```
 
 ## DOM&BOM
+### screenX,pageX,clientX,offsetX区别
+![](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/random-1.png)
 
 ### 节点克隆
 ```js

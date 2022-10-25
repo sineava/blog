@@ -137,6 +137,10 @@ function format2(number) {
 > 函数防抖是指在事件被触发 n 秒后再执行回调，如果在这 n 秒内事件又被触发，则重新计时。这可以使用在一些点击请求的事件上，避免因为用户的多次点击向后端发送多次请求。
 > 函数节流是指规定一个单位时间，在这个单位时间内，只能有一次触发事件的回调函数执行，如果在同一个单位时间内某事件被触发多次，只有一次能生效。节流可以使用在 scroll 函数的事件监听上，通过事件节流来降低事件调用的频率。
 
+### stopPropagation与preventDefault的区别
+- stopPropagation: 用于阻止事件的冒泡和捕获
+- preventDefault: 用于阻止{% bubble 浏览器默认行为, 1. 点击链接会进行跳转 2.右键会呼出浏览器右键菜单 3.填写表单时按回车会自动提交到服务器等 %}
+
 ---
 {% referfrom '1.','HTML表单input类型','https://www.w3schools.com/html/html_form_input_types.asp' %}
 {% referfrom '2.','表单拖放api','https://developer.mozilla.org/zh-CN/docs/Web/API/HTML_Drag_and_Drop_API' %}
