@@ -1,6 +1,6 @@
 @font-face {
   font-family: ZhuZiAYuanJWD;
-  src: url(https://cdn.cbd.int/anzhiyu-blog@latest/fonts/ZhuZiAWan.woff2);
+  src: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/ZhuZiAWan.woff2);
   font-display: swap;
   font-weight: lighter;
 }
@@ -398,4 +398,8 @@ button:not(:disabled) {
   font-size: 14px;
   font-weight: 400;
   color: #aaa;
+}
+
+.video-container {
+  border-radius: 10px;
 }

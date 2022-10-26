@@ -100,6 +100,27 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 - 检测过时的 context API
 - 确保可复用的状态
 
+### Hook Api
+#### 自定义Hook
+```tsx
+function useWindowWidth() {
+  const [width, setWidth] = useState(window.innerWidth)
+  useEffect(() => {
+    const handleResize = () => setWidth(window.innerWidth)
+    window.addEventListener('resize', handleResize)
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  })
+  return width
+}
+
+// 引用
+const width = useWindowWidth()
+```
+
+{% youtube dpw9EHDh2bM %}
+
 ---
 {% referfrom '1','react官方文档','https://reactjs.org' %}
 {% referfrom '2','babel编译器','https://babeljs.io/repl' %}
