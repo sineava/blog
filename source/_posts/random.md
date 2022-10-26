@@ -4,7 +4,7 @@ cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed@latest/cover/bg-11.jpg'
 background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed@latest/cover/bg-11.jpg)
 tags: 随笔
 date: 2022-09-03 15:53:16
-updated: 2022-10-04 15:53:16
+updated: 2022-10-26 23:28:16
 ---
 
 ## HTML
@@ -239,6 +239,111 @@ span {
 ```
 
 ## JavaScript
+
+### 观察者模式
+{% note success simple %}
+目标<=>观察者
+{% endnote %}
+```js
+class Observer {
+  constructor(name) {
+    this.name = name
+  }
+  update({ type, target }) {
+    if (type !== 'kill') return
+    if (target === this.name) {
+      console.log(`逗我呢?悬赏干掉我自己🐱‍`)
+    } else {
+      console.log(`杀手: ${this.name}, 目标: ${target}, 任务已完成`)
+    }
+  }
+}
+
+class Subject {
+  constructor() {
+    this.observerList = []
+  }
+  addObserver(observer) {
+    this.observerList.push(observer)
+  }
+  notify(task) {
+    this.observerList.forEach(observer => {
+      console.log(`${observer.name}准备开始任务!`)
+      observer.update(task)
+    })
+  }
+}
+
+const subject = new Subject()
+const observer1 = new Observer('张三')
+const observer2 = new Observer('李四')
+subject.addObserver(observer1)
+subject.addObserver(observer2)
+
+const task = {
+  type: 'kill',
+  target: '张三'
+}
+
+subject.notify(task)
+
+// 张三准备开始任务!
+// 逗我呢?悬赏干掉我自己🐱‍
+// 李四准备开始任务!
+// 杀手: 李四, 目标: 张三, 任务已完成
+```
+
+### 发布订阅模式
+{% note success simple %}
+发布者->事件中心<=>订阅者
+{% endnote %}
+```js
+class PubSub {
+  constructor() {
+    // killTask: 暗杀任务, protectTask: 保镖任务
+    this.events = {}
+  }
+  subscribe(type, cb) {
+    if (!this.events[type]) this.events[type] = []
+    this.events[type].push(cb)
+  }
+  publish(type, ...args) {
+    console.log(`中介发布任务: ${args}`)
+    this.events[type] && this.events[type].forEach(cb => cb(...args))
+  }
+  unsubscribe(type, cb) {
+    if (this.events[type].length === 0) {
+      delete this.events[type]
+      return
+    }
+    if (this.events[type]) {
+      const index = this.events[type].findIndex(e => e === cb)
+      this.events[type].splice(index, 1)
+    }
+  }
+  unsubscribeAll(type) {
+    this.events[type] && delete this.events[type]
+  }
+}
+
+// 中介
+const pubsub = new PubSub()
+pubsub.subscribe('killTask', function(taskInfo) {
+  console.log(`完成任务: ${taskInfo}`)
+})
+pubsub.subscribe('protectTask', function(taskInfo) {
+  console.log(`完成任务: ${taskInfo}`)
+})
+
+pubsub.publish('killTask', '暗杀!')
+pubsub.publish('protectTask', '保护!')
+
+// 控制台输出:
+// 中介发布任务: 暗杀!
+// 完成任务: 暗杀!
+// 中介发布任务: 保护!
+// 完成任务: 保护!
+```
 
 ### Math对象
 ```js

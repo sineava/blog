@@ -119,6 +119,10 @@ function useWindowWidth() {
 const width = useWindowWidth()
 ```
 
+#### Hook使用规则
+- {% bubble 只能在函数最外层调用 Hook,不要在循环、条件判断或者子函数中调用 %}
+- {% bubble 只能在 React 的函数组件中调用 Hook,自定义Hook除外 %}
+
 {% youtube dpw9EHDh2bM %}
 
 ---
