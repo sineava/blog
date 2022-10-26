@@ -138,7 +138,7 @@ console.log(handle.format())
 ```typescript
 enum HandleType { ADD,DELETE,UPDATE,SELECT }
 interface handle {
-	type: HandleType,
+  type: HandleType,
   data: string[]
 }
 ```

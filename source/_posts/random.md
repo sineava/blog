@@ -21,13 +21,13 @@ updated: 2022-10-26 23:28:16
 ### meta
 ```html
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Free Web tutorials">
-  <meta name="keywords" content="HTML, CSS, JavaScript">
-  <meta name="author" content="John Doe">
-  <meta http-equiv="refresh" content="30">
+  <meta charset="UTF-8" />
+  <meta name="description" content="Free Web tutorials" />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <meta name="author" content="John Doe" />
+  <meta http-equiv="refresh" content="30" />
   <!-- 让当前viewport的宽度等于设备的宽度，同时不允许用户手动缩放(移动端需要设置) -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
 </head>
 ```
 
@@ -142,7 +142,7 @@ removeAttribute(key)
 ### 伪元素实现浮动清除
 ```css
 selector::after {
-	content: '';
+  content: '';
   display: block;
   clear: both;
 }
@@ -518,24 +518,24 @@ Reflect.set(obj, 'name', 'ls')
 ### 设置默认跳转https
 ```nginx
 server {
-	if ($scheme = http ) {return 301 https://$host$request_uri;}
+  if ($scheme = http ) {return 301 https://$host$request_uri;}
 }
 ```
 
 ### 代理
 ```nginx
 server {
-	listen 120;
-	server_name localhost;
+  listen 120;
+  server_name localhost;
 
-	location / {
-		proxy_pass http://localhost:5000/;
-	}
+  location / {
+    proxy_pass http://localhost:5000/;
+  }
 
-	location /qq {
-		rewrite /qq/(.*) /$1  break;
-		proxy_pass https://api.qq.jsososo.com/;
-	}
+  location /qq {
+    rewrite /qq/(.*) /$1  break;
+    proxy_pass https://api.qq.jsososo.com/;
+  }
 }
 ```
 
