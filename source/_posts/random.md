@@ -39,6 +39,15 @@ updated: 2022-10-26 23:28:16
 <a href="/file.pdf">download file</a>
 ```
 
+## 浏览器
+### 调试js控制样式
+1. 切到控制台Sources
+2. f8 -> ctrl+\
+
+### 调试video标签隐藏元素
+![](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/random-4.jpg)
+![](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/random-3.jpg)
+
 ## DOM&BOM
 ### screenX,pageX,clientX,offsetX区别
 ![](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/random-1.png)

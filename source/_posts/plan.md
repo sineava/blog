@@ -25,9 +25,10 @@ updated: 2022-10-04 15:53:16
 <!-- timeline 10月 -->
 {% checkbox checked, Vue.js设计与实现 p37-p217 %}
 {% checkbox checked, Blender案例视频-随缘 %}
+{% checkbox checked, React官方文档 %}
 <!-- endtimeline -->
 <!-- timeline 11月 -->
-{% checkbox React官方文档 %}
+{% checkbox 原神官网临摹 %}
 <!-- endtimeline -->
 
 <!-- timeline 计划中 -->
