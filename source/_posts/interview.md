@@ -23,6 +23,12 @@ updated: 2022-10-09 15:11:07
 <footer /> 底部
 ```
 
+### 谈一谈css盒模型
+- {% bubble 标准盒模型(content-box),width=content %}
+- {% bubble IE盒模型(border-box),width=content+padding+border %}
+
+![](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/interview-1.png)
+
 ### 常见的meta标签
 ```html
 <!-- 描述文档编码 -->
@@ -47,6 +53,20 @@ updated: 2022-10-09 15:11:07
 <!-- 搜索引擎索引方式 -->
 <meta name="robots" content="index,follow" />
 ```
+
+## CSS
+### 谈谈对BFC的理解
+> 块格式化上下文(BFC)类似一个"结界",如果一个DOM元素具有BFC,那么它内部的子元素不会影响外面的元素,外面的元素也不会影响到其内部元素,常用于:
+1. 解决浮动子元素导致父元素高度坍塌
+2. 解决边距重叠问题
+3. 解决文字环绕问题
+
+> 形成条件:
+1. html 根元素
+2. float的值不是none
+3. position 的值不是static或者relative
+4. display的值是inline-block,table-cell,table-caption,flex,inline-flex
+5. overflow的值不是visible
 
 ## JavaScript
 ### 介绍 js 的基本数据类型

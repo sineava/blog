@@ -30,10 +30,16 @@ updated: 2022-08-27 15:53:16
 {% endtip %}
 ![](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/20220827095545.png)
 
+### [lottiefiles](https://lottiefiles.com/)
+{% tip info %}
+  很多动画资源,比如loading,动态插画等
+{% endtip %}
+![lottiefiles](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/2cc64308687073c5fb3771891457195.jpg)
+
 ## 前端
 
+### [css doodle](https://css-doodle.com/)
 {% tip info %}
   可以用它来实现一些炫酷的粒子特效,codepen上也有它的很多炫酷的实现
 {% endtip %}
-### [css doodle](https://css-doodle.com/)
 ![](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/20220827094736.png)

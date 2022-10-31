@@ -220,6 +220,15 @@ select {
 }
 ```
 
+### 图片镜像
+```css
+.img {
+  /* below,above,left,right */
+  box-reflect: right;
+}
+```
+![](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/interview-2.png)
+
 ### css属性使用html
 ```html
 <style>
@@ -376,6 +385,15 @@ console.log(getVal()) // undefined
 
 const bindVal = getVal.bind(module)
 console.log(bindVal()) // 2233
+```
+
+### 大小写互换
+```js
+const str = 'HeLl0wOrLd'
+const newStr = str.replace(/([a-z]*)([A-Z]*)/g, (_, s1, s2) => {
+  return `${s1.toUpperCase()}${s2.toLowerCase()}`
+})
+console.log(newStr) // hElL0WoRlD
 ```
 
 ### 保留三位小数(小数为0则不保留)
