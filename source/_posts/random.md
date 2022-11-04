@@ -18,6 +18,20 @@ updated: 2022-10-26 23:28:16
 </picture>
 ```
 
+### 图片热力区域
+{% note success simple %}
+需要点击tab
+{% endnote %}
+```html
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+```
+
 ### meta
 ```html
 <head>
@@ -56,6 +70,14 @@ updated: 2022-10-26 23:28:16
 ```js
 const container = document.querySelector('.container')
 const cloneContainer = container.cloneNode(true) // true:深度克隆,不传只可能表层元素
+```
+
+### 给页面所有元素添加随机颜色border
+{% note success simple %}
+选择器$$(类似querySelectorAll)只有在控制台才有,[具体解释参考github](https://github.com/haizlin/fe-interview/issues/100)
+{% endnote %}
+```js
+[].forEach.call($$("*"),function(a){ a.style.outline="1px solid #"+(~~(Math.random()*(1<<24))).toString(16) })
 ```
 
 ### 拖动图片到指定区域
@@ -369,6 +391,17 @@ Math.floor() // 向下取整
 Math.ceil()  // 向上取整
 Math.round() // 四舍五入
 Math.trunc()   // 去掉小数
+```
+
+### 数组乱序
+```js
+const arr = [1, 2, 3, 4, 5]
+const shuffle = arr => arr.sort(() => Math.random() - 0.5)
+```
+
+### 判断数据类型
+```js
+Object.prototype.toString.call(data).slice(8, -1).toLowerCase()
 ```
 
 ### bind
