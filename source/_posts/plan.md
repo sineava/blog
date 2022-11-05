@@ -1,7 +1,7 @@
 ---
 title: 个人规划
-cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-09.jpeg'
-background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-09.jpeg)
+cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-21.jpg'
+background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-21.jpg)
 tags: 规划
 message: 这是一篇加密文章
 password: password
@@ -11,11 +11,17 @@ date: 2022-08-27 15:53:16
 updated: 2022-10-04 15:53:16
 ---
 
-
 {% tip success %}
   以前一直要同时在多款软件中进行日程规划,学习规划,笔记整理,所以打算集中到一个网站上
 {% endtip %}
 
+### 时间安排
+| 时间 | 事项 |
+| :------ | ------: |
+| 工作日 | 看书/刷视频/刷面经/掘金 |
+| 周末 | 画UI/写项目 |
+
+### 目标安排
 {% timeline %}
 <!-- timeline 9月 -->
 {% checkbox checked, 写篇curl blog %}
@@ -29,7 +35,7 @@ updated: 2022-10-04 15:53:16
 <!-- endtimeline -->
 <!-- timeline 11月 -->
 {% checkbox 刷面试题 %}
-{% checkbox 原神官网临摹 %}
+{% checkbox checked, 原神官网临摹 %}
 <!-- endtimeline -->
 
 <!-- timeline 计划中 -->
