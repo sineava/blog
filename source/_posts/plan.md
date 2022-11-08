@@ -34,7 +34,8 @@ updated: 2022-10-04 15:53:16
 {% checkbox checked, React官方文档 %}
 <!-- endtimeline -->
 <!-- timeline 11月 -->
-{% checkbox 刷面试题 %}
+{% checkbox 刷面试题-随缘 %}
+{% checkbox flutter中文文档 %}
 {% checkbox checked, 原神3.1版官网临摹 %}
 <!-- endtimeline -->
 

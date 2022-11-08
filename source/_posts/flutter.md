@@ -88,3 +88,6 @@ $ flutter upgrade
 # 出现问题可执行如下操作
 $ git checkout -- . # 出现网络问题,可切换到flutter sdk安装路径,然后执行该命令
 ```
+
+---
+{% referfrom '1','flutter中文文档','https://flutter.cn/' %}
