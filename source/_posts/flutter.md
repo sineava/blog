@@ -56,6 +56,13 @@ stless // 快速创建无状态class
 stful  // 快速创建状态class
 ```
 
+### flutter下载canvasKit或包卡住
+```bash
+# linux使用export,window直接配置系统环境变量就行,记得重启下
+$ export PUB_HOSTED_URL=https://pub.flutter-io.cn
+$ export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+```
+
 ### flutter run -d 安卓设备(卡住)
 ```bash
 # 进行检测

@@ -35,7 +35,7 @@ updated: 2022-10-04 15:53:16
 <!-- endtimeline -->
 <!-- timeline 11月 -->
 {% checkbox 刷面试题 %}
-{% checkbox checked, 原神官网临摹 %}
+{% checkbox checked, 原神3.1版官网临摹 %}
 <!-- endtimeline -->
 
 <!-- timeline 计划中 -->

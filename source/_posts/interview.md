@@ -166,3 +166,5 @@ function format2(number) {
 {% referfrom '2.','表单拖放api','https://developer.mozilla.org/zh-CN/docs/Web/API/HTML_Drag_and_Drop_API' %}
 {% referfrom '3.','置换元素与非置换元素','https://blog.doyoe.com/2015/03/15/css/置换和非置换元素/' %}
 {% referfrom '4.','Web 性能','https://developer.mozilla.org/zh-CN/docs/Web/Performance' %}
+{% referfrom '5.','有趣的前端api-博客','https://denzel.netlify.app/' %}
+{% referfrom '6.','Javascript Guidebook','https://tsejx.github.io/javascript-guidebook/' %}

@@ -14,13 +14,13 @@ updated: 2022-10-26 23:28:16
 <picture>
   <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
   <source media="(min-width:465px)" srcset="img_white_flower.jpg">
-  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto">
 </picture>
 ```
 
 ### 图片热力区域
 {% note success simple %}
-需要点击tab
+点击tab触发
 {% endnote %}
 ```html
 <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
@@ -30,6 +30,11 @@ updated: 2022-10-26 23:28:16
   <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
   <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
 </map>
+```
+
+### 模拟textarea可编辑拉伸
+```html
+<div style="resize: both;min-height:200px;border: 1px solid #ccc;overflow:auto;" contenteditable="true"></div>
 ```
 
 ### meta
@@ -176,6 +181,13 @@ selector::after {
   content: '';
   display: block;
   clear: both;
+}
+```
+
+### hover时暂停动画
+```css
+selector:hover {
+  animation-play-state: paused;
 }
 ```
 
@@ -562,6 +574,11 @@ Reflect.set(obj, 'name', 'ls')
 
 ## NPM
 
+### normalize.css
+{% tip success %}
+  抹除浏览器样式差异
+{% endtip %}
+
 ### postcss-px-to-viewport
 {% tip success %}
   pc/app分辨率适配方案
@@ -572,6 +589,10 @@ Reflect.set(obj, 'name', 'ls')
   可用于判断点位是否在区域内(地图推荐使用)
 {% endtip %}
 
+### fullpage.js
+{% tip success %}
+  全屏滚动
+{% endtip %}
 
 ## nginx
 
