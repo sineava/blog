@@ -16,6 +16,11 @@ updated: 2022-10-30 11:51:20
 - StatelessWidget: 无状态的widgets是不可变的,这意味着它们的属性不能改变,所有的值都是final
 - StatefulWidget: 有状态的widgets也是不可变的,内部维护着可变的State
 
+### 布局约束
+- 上层widget向下层widget传递约束条件
+- 下层widget向上层widget传递大小信息
+- 上层widget决定下层widget的位置
+
 ### 常见Widgets
 - Container: 容器(可添加padding,margin,border,background color等)
 - GridView: 可滚动网格
@@ -25,8 +30,67 @@ updated: 2022-10-30 11:51:20
 - Row/Column: 行/列布局,可配置主轴与交叉轴
 - Card: 将相关信息整理到一个有圆角和阴影的盒子中
 - ListTile: 将最多三行的文本、可选的导语以及后面的图标组织在一行中
+- Tooltip: 简单提示
+- Center: 居中布局
+- Align: 放置子widget位于左上,右下等
 
 {% youtube XawP1i314WM %}
+
+### 自适应与响应式
+- {% label 自适应 green %}: 应用以自适应的方式在不同的设备上（移动端和桌面端）运行，需要同时处理鼠标、键盘和触控输入
+- {% label 响应式 green %}: 一个响应式应用的布局会根据可用的屏幕大小而调整
+
+### 设备类型判断
+```dart
+class FormFactor {
+  static double desktop = 900;
+  static double tablet = 600;
+  static double handset = 300;
+}
+
+ScreenType getFormFactor(BuildContext context) {
+  double deviceWidth = MediaQuery.of(context).size.shortestSide;
+  if (deviceWidth > FormFactor.desktop) return ScreenType.Desktop;
+  if (deviceWidth > FormFactor.tablet) return ScreenType.Tablet;
+  if (deviceWidth > FormFactor.handset) return ScreenType.Handset;
+  return ScreenType.Watch;
+}
+```
+
+### 设备细分
+{% tip info %}
+  Platform配合kIsWeb(检测是否支持浏览器,web端无Platform)使用
+{% endtip %}
+```dart
+bool get isMobileDevice => !kIsWeb && (Platform.isIOS || Platform.isAndroid);
+bool get isDesktopDevice => !kIsWeb && (Platform.isMacOS || Platform.isWindows || Platform.isLinux);
+bool get isMobileDeviceOrWeb => kIsWeb || isMobileDevice;
+bool get isDesktopDeviceOrWeb => kIsWeb || isDesktopDevice;
+```
+
+### 跳转页面
+```dart
+Navigator.of(context).push(
+  MaterialPageRoute(
+    builder: (context) => const SongScreen(song: song)
+  )
+)
+```
+
+### 可选择文本
+```dart
+return SelectableText('Select me!');
+
+// 富文本
+return SelectableText.rich(
+  TextSpan(
+    children: [
+      TextSpan(text: 'Hello'),
+      TextSpan(text: 'Bold', style: TextStyle(fontWeight: FontWeight.bold))
+    ]
+  )
+);
+```
 
 ## flutter常用库
 ### english_words
@@ -37,6 +101,11 @@ updated: 2022-10-30 11:51:20
 ### cupertino_icons
 {% tip info %}
   图标库(flutter已经内置)
+{% endtip %}
+
+### bitsdojo_window
+{% tip info %}
+  桌面端:禁用顶部栏,用于定制应用窗口的标题栏
 {% endtip %}
 
 ## 其他
@@ -122,3 +191,5 @@ $ git checkout -- . # 出现网络问题,可切换到flutter sdk安装路径,然
 {% referfrom '3','flutter插件库','https://pub.dev/' %}
 {% referfrom '4','flutter cookbook','https://flutter.cn/docs/cookbook' %}
 {% referfrom '5','核心widget','https://flutter.cn/docs/development/ui/widgets' %}
+{% referfrom '6','资源与图片,logo','https://flutter.cn/docs/development/ui/assets-and-images' %}
+{% referfrom '7','图片在线转App Icon','https://appicon.co/' %}
