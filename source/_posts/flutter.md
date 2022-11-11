@@ -33,6 +33,10 @@ updated: 2022-10-30 11:51:20
 - Tooltip: 简单提示
 - Center: 居中布局
 - Align: 放置子widget位于左上,右下等
+- SafeArea: 安全区
+- Inkwell: 常用于右侧展开
+- TextField/TextFormField: 前者纯展示,如果有数据绑定等使用后者,搭配Form
+- ListWheelScrollView: 滚轮列表,可用于时间滚动等功能
 
 {% youtube XawP1i314WM %}
 
@@ -108,6 +112,11 @@ return SelectableText.rich(
   桌面端:禁用顶部栏,用于定制应用窗口的标题栏
 {% endtip %}
 
+### audioplayers
+{% tip info %}
+  音频播放
+{% endtip %}
+
 ## 其他
 ### 开发环境
 1. 安装flutter sdk
@@ -139,6 +148,11 @@ $ flutter pub get
 $ flutter upgrade
 ```
 
+### setState不生效
+{% tip info %}
+  *.变量不要声明在build内部
+{% endtip %}
+
 ### 关闭右上角debug
 ```dart
 MaterialApp(
@@ -165,7 +179,8 @@ $ export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 $ flutter doctor
 # 配置JAVA_HOME
 # 切换到android,使用gradlew clean&build
-$ ./android/gradlew clean build
+$ cd android
+$ ./gradlew clean build
 ```
 
 ### audioplayers视频无法播放
@@ -185,6 +200,22 @@ $ flutter upgrade
 $ git checkout -- . # 出现网络问题,可切换到flutter sdk安装路径,然后执行该命令
 ```
 
+### 组件内部返回上一页
+{% tip info %}
+  我的UI结构: 登录注册页->注册页->注册页子组件按钮,直接路由会黑屏
+{% endtip %}
+```dart
+// 父组件
+Back(pContext: context)
+
+// 子组件
+final BuildContext pContext;
+const Header({Key? key, required this.pContext}) : super(key: key);
+onPressed: () {
+  Navigator.pop(widget.pContext);
+}
+```
+
 ---
 {% referfrom '1','flutter中文文档','https://flutter.cn/' %}
 {% referfrom '2','dartpad','https://dartpad.cn/' %}
@@ -193,3 +224,5 @@ $ git checkout -- . # 出现网络问题,可切换到flutter sdk安装路径,然
 {% referfrom '5','核心widget','https://flutter.cn/docs/development/ui/widgets' %}
 {% referfrom '6','资源与图片,logo','https://flutter.cn/docs/development/ui/assets-and-images' %}
 {% referfrom '7','图片在线转App Icon','https://appicon.co/' %}
+{% referfrom '8','flutter实战','https://book.flutterchina.club/' %}
+{% referfrom '9','flutter组件详解','http://laomengit.com/' %}
