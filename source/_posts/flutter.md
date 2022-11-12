@@ -8,6 +8,13 @@ date: 2022-07-28 22:53:16
 updated: 2022-10-30 11:51:20
 ---
 
+## dart语法
+### list
+```dart
+// 创建指定长度list
+List.generate(6, (index) => CircleButton(index: index));
+```
+
 ## 基础
 ### 视图结构
 ![](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/flutter-1.png)
