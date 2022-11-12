@@ -1,7 +1,7 @@
 ---
 title: yolov5目标检测
-cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-02.jpg'
-background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-02.jpg)
+cover: 'https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/bg-02.jpg'
+background: url(https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/bg-02.jpg)
 tags: yolo
 comments: true
 date: 2022-08-24 15:53:16

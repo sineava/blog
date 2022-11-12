@@ -242,4 +242,4 @@ encrypt:
 
 # lazyload:
 #   enable: true
-#   loadingImg: https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/loading.gif
+#   loadingImg: https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/loading.gif

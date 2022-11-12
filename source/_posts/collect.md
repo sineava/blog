@@ -1,7 +1,7 @@
 ---
 title: 网站收集
-cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-08.jpg'
-background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-08.jpg)
+cover: 'https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/bg-08.jpg'
+background: url(https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/bg-08.jpg)
 tags: collect
 comments: true
 date: 2022-08-27 15:53:16
@@ -16,25 +16,25 @@ updated: 2022-08-27 15:53:16
 
 ### [collect ui](https://collectui.com/)
 
-![collect ui](https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/20220827093123.png)
+![collect ui](https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/20220827093123.png)
 
 ### [ui中国](https://www.ui.cn/)
-![ui中国](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/20220827094249.png)
+![ui中国](https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/20220827094249.png)
 
 ### [dribble](https://dribbble.com/)
-![dribble](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/20220827094416.png)
+![dribble](https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/20220827094416.png)
 
 ### [muzil](https://muz.li/)
 {% tip warning %}
 这是插件,需要chrome安装插件才能使用
 {% endtip %}
-![](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/20220827095545.png)
+![](https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/20220827095545.png)
 
 ### [lottiefiles](https://lottiefiles.com/)
 {% tip info %}
   很多动画资源,比如loading,动态插画等
 {% endtip %}
-![lottiefiles](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/2cc64308687073c5fb3771891457195.jpg)
+![lottiefiles](https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/2cc64308687073c5fb3771891457195.jpg)
 
 ## 前端
 
@@ -42,4 +42,4 @@ updated: 2022-08-27 15:53:16
 {% tip info %}
   可以用它来实现一些炫酷的粒子特效,codepen上也有它的很多炫酷的实现
 {% endtip %}
-![](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/20220827094736.png)
+![](https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/20220827094736.png)

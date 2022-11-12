@@ -1,7 +1,7 @@
 ---
 title: springboot烹饪书
-cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-04.jpg'
-background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-04.jpg)
+cover: 'https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/bg-04.jpg'
+background: url(https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/bg-04.jpg)
 tags: springboot
 comments: true
 date: 2022-08-25 15:53:16
@@ -151,7 +151,7 @@ File->Settings->File Encodings 字符修改为UTF-8,并勾选
 {% endnote %}
 
 <div style="display:flex;justify-content:flex-start;">
-<img src="https://cdn.jsdelivr.net/gh/sineava/picture-bed/doc/springboot/springboot-1.png" />
+<img src="https://testingcf.jsdelivr.net/gh/sineava/picture-bed/doc/springboot/springboot-1.png" />
 </div>
 
 ---

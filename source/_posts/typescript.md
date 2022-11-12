@@ -1,7 +1,7 @@
 ---
 title: Typescript初识
-cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed/img/bg-07.jpg'
-background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/img/bg-07.jpg)
+cover: 'https://testingcf.jsdelivr.net/gh/sineava/picture-bed/img/bg-07.jpg'
+background: url(https://testingcf.jsdelivr.net/gh/sineava/picture-bed/img/bg-07.jpg)
 tags: typescript
 date: 2022-08-24 15:53:16
 updated: 2022-09-03 15:53:16

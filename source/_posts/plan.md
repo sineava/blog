@@ -1,7 +1,7 @@
 ---
 title: 个人规划
-cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-21.jpg'
-background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-21.jpg)
+cover: 'https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/bg-21.jpg'
+background: url(https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/bg-21.jpg)
 tags: 规划
 message: 这是一篇加密文章
 password: password

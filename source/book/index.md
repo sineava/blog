@@ -1,7 +1,7 @@
 ---
 title: 编程书籍推荐
-cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/bg-18.jpg'
-background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/bg-18.jpg)
+cover: 'https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/bg-18.jpg'
+background: url(https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/bg-18.jpg)
 comments: true
 date: 2022-10-26 23:17:10
 updated: 2022-10-26 23:17:10

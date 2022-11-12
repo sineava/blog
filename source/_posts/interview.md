@@ -1,7 +1,7 @@
 ---
 title: 前端八股文
-cover: 'https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/bg-15.jpg'
-background: url(https://cdn.jsdelivr.net/gh/sineava/picture-bed/cover/bg-15.jpg)
+cover: 'https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/bg-15.jpg'
+background: url(https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/bg-15.jpg)
 tags: interview
 comments: true
 date: 2022-10-09 15:11:07
@@ -27,7 +27,7 @@ updated: 2022-10-09 15:11:07
 - {% bubble 标准盒模型(content-box),width=content %}
 - {% bubble IE盒模型(border-box),width=content+padding+border %}
 
-![](https://cdn.jsdelivr.net/gh/sineava/picture-bed//cover/interview-1.png)
+![](https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/interview-1.png)
 
 ### 常见的meta标签
 ```html
