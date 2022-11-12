@@ -48,5 +48,6 @@ updated: 2022-10-04 15:53:16
 {% checkbox 粘贴图片预览 %}
 {% checkbox Vue官方文档 %}
 {% checkbox html拖放功能 %}
+{% checkbox 图片压缩上传 %}
 <!-- endtimeline -->
 {% endtimeline %}
