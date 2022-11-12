@@ -79,7 +79,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/siteicon/144favicon.png
+favicon: https://npm.elemecdn.com/picture-bed@latest/img/favicon.png
 
 # Avatar (頭像)
 avatar:
@@ -854,10 +854,10 @@ pwa:
   enable: true
   manifest: /manifest.json
   theme_color: '#49b1f5'
-  apple_touch_icon: /img/siteicon/128.png
-  favicon_32_32: /img/siteicon/32.png
-  favicon_16_16: /img/siteicon/16.png
-  mask_icon: /img/siteicon/128.png
+  apple_touch_icon: https://npm.elemecdn.com/picture-bed@latest/img/favicon.png
+  favicon_32_32: https://npm.elemecdn.com/picture-bed@latest/img/favicon.png
+  favicon_16_16: https://npm.elemecdn.com/picture-bed@latest/img/favicon.png
+  mask_icon: https://npm.elemecdn.com/picture-bed@latest/img/favicon.png
 
 # Open graph meta tags
 # https://developers.facebook.com/docs/sharing/webmasters/
