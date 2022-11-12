@@ -1,7 +1,7 @@
 ---
 title: curl资料整理
-cover: 'https://npm.elemecdn.com/picture-bed@1.0.0/cover/bg-16.jpg'
-background: url(https://npm.elemecdn.com/picture-bed@1.0.0/cover/bg-16.jpg)
+cover: 'https://npm.elemecdn.com/picture-bed@latest/cover/bg-16.jpg'
+background: url(https://npm.elemecdn.com/picture-bed@latest/cover/bg-16.jpg)
 tags: curl
 date: 2022-09-28 15:53:16
 updated: 2022-09-29 15:53:16

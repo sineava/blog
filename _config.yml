@@ -242,4 +242,4 @@ encrypt:
 
 # lazyload:
 #   enable: true
-#   loadingImg: https://npm.elemecdn.com/picture-bed@1.0.0//cover/loading.gif
+#   loadingImg: https://npm.elemecdn.com/picture-bed@latest//cover/loading.gif

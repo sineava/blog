@@ -1,22 +1,22 @@
 algolia_search_v4:
   name: algoliasearch
-  file: dist/algoliasearch-lite.umd.js
+  file: js/algoliasearch-lite.umd.js
   version: 4.14.2
 instantsearch_v4:
   name: instantsearch.js
-  file: dist/instantsearch.production.min.js
+  file: js/instantsearch.production.min.js
   version: 4.44.0
 pjax:
   name: pjax
-  file: pjax.min.js
+  file: js/pjax.min.js
   version: 0.2.8
 gitalk:
   name: gitalk
-  file: dist/gitalk.min.js
+  file: js/gitalk.min.js
   version: 1.7.2
 gitalk_css:
   name: gitalk
-  file: dist/gitalk.css
+  file: css/gitalk.css
   version: 1.7.2
 blueimp_md5:
   name: blueimp-md5
@@ -24,87 +24,87 @@ blueimp_md5:
   version: 2.19.0
 valine:
   name: valine
-  file: dist/Valine.min.js
+  file: js/Valine.min.js
   version: 1.5.1
 disqusjs:
   name: disqusjs
-  file: dist/browser/disqusjs.es2015.umd.min.js
+  file: js/browser/disqusjs.es2015.umd.min.js
   version: 3.0.1
 disqusjs_css:
   name: disqusjs
-  file: dist/browser/styles/disqusjs.css
+  file: css/browser/styles/disqusjs.css
   version: 3.0.1
 twikoo:
   name: twikoo
-  file: dist/twikoo.all.min.js
+  file: js/twikoo.all.min.js
   version: 1.6.5
 waline_js:
   name: '@waline/client'
-  file: dist/waline.js
+  file: js/waline.js
   other_name: waline
   version: 2.6.3
 waline_css:
   name: '@waline/client'
-  file: dist/waline.css
+  file: js/waline.css
   other_name: waline
   version: 2.6.3
 sharejs:
   name: butterfly-extsrc
-  file: sharejs/dist/js/social-share.min.js
+  file: js/social-share.min.js
   version: 1.1.3
 sharejs_css:
   name: butterfly-extsrc
-  file: sharejs/dist/css/share.min.css
+  file: css/share.min.css
   version: 1.1.3
 mathjax:
   name: mathjax
-  file: es5/tex-mml-chtml.js
+  file: js/tex-mml-chtml.js
   version: 3.2.2
 katex:
   name: katex
-  file: dist/katex.min.css
+  file: css/katex.min.css
   other_name: KaTeX
   version: 0.16.0
 katex_copytex:
   name: katex
-  file: dist/contrib/copy-tex.min.js
+  file: js/copy-tex.min.js
   other_name: KaTeX
   version: 0.16.0
 mermaid:
   name: mermaid
-  file: dist/mermaid.min.js
+  file: js/mermaid.min.js
   version: 9.1.5
 canvas_ribbon:
   name: butterfly-extsrc
-  file: dist/canvas-ribbon.min.js
+  file: js/canvas-ribbon.min.js
   version: 1.1.3
 canvas_fluttering_ribbon:
   name: butterfly-extsrc
-  file: dist/canvas-fluttering-ribbon.min.js
+  file: js/canvas-fluttering-ribbon.min.js
   version: 1.1.3
 canvas_nest:
   name: butterfly-extsrc
-  file: dist/canvas-nest.min.js
+  file: js/canvas-nest.min.js
   version: 1.1.3
 activate_power_mode:
   name: butterfly-extsrc
-  file: dist/activate-power-mode.min.js
+  file: js/activate-power-mode.min.js
   version: 1.1.3
 fireworks:
   name: butterfly-extsrc
-  file: dist/fireworks.min.js
+  file: js/fireworks.min.js
   version: 1.1.3
 click_heart:
   name: butterfly-extsrc
-  file: dist/click-heart.min.js
+  file: js/click-heart.min.js
   version: 1.1.3
 ClickShowText:
   name: butterfly-extsrc
-  file: dist/click-show-text.min.js
+  file: js/click-show-text.min.js
   version: 1.1.3
 lazyload:
   name: vanilla-lazyload
-  file: dist/lazyload.iife.min.js
+  file: js/lazyload.iife.min.js
   version: 17.3.1
 instantpage:
   name: instant.page
@@ -112,33 +112,33 @@ instantpage:
   version: 5.1.1
 typed:
   name: typed.js
-  file: lib/typed.min.js
+  file: js/typed.min.js
   version: 2.0.12
 pangu:
   name: pangu
-  file: dist/browser/pangu.min.js
+  file: js/browser/pangu.min.js
   version: 4.0.7
 fancybox_css_v4:
   name: '@fancyapps/ui'
-  file: dist/fancybox.css
+  file: css/fancybox.css
   version: 4.0.31
   other_name: fancyapps-ui
 fancybox_v4:
   name: '@fancyapps/ui'
-  file: dist/fancybox.umd.js
+  file: js/fancybox.umd.js
   version: 4.0.31
   other_name: fancyapps-ui
 medium_zoom:
   name: medium-zoom
-  file: dist/medium-zoom.min.js
+  file: js/medium-zoom.min.js
   version: 1.0.6
 snackbar_css:
   name: node-snackbar
-  file: dist/snackbar.min.css
+  file: css/snackbar.min.css
   version: 0.1.16
 snackbar:
   name: node-snackbar
-  file: dist/snackbar.min.js
+  file: js/snackbar.min.js
   version: 0.1.16
 fontawesomeV6:
   name: '@fortawesome/fontawesome-free'
@@ -147,44 +147,44 @@ fontawesomeV6:
   version: 6.1.2
 flickr_justified_gallery_js:
   name: flickr-justified-gallery
-  file: dist/fjGallery.min.js
+  file: js/fjGallery.min.js
   version: 2.1.2
 flickr_justified_gallery_css:
   name: flickr-justified-gallery
-  file: dist/fjGallery.css
+  file: css/fjGallery.css
   version: 2.1.2
 aplayer_css:
   name: aplayer
-  file: dist/APlayer.min.css
+  file: css/APlayer.min.css
   version: 1.10.1
 aplayer_js:
   name: aplayer
-  file: dist/APlayer.min.js
+  file: js/APlayer.min.js
   version: 1.10.1
 meting_js:
   name: butterfly-extsrc
-  file: metingjs/dist/Meting.min.js
+  file: js/Meting.min.js
   version: 1.1.3
 prismjs_js:
   name: prismjs
-  file: prism.js
+  file: js/prism.js
   other_name: prism
   version: 1.28.0
 prismjs_lineNumber_js:
   name: prismjs
-  file: plugins/line-numbers/prism-line-numbers.min.js
+  file: js/prism-line-numbers.min.js
   other_name: prism
   version: 1.28.0
 prismjs_autoloader:
   name: prismjs
-  file: plugins/autoloader/prism-autoloader.min.js
+  file: js/prism-autoloader.min.js
   other_name: prism
   version: 1.28.0
 artalk_js:
   name: artalk
-  file: dist/Artalk.js
+  file: js/Artalk.js
   version: 2.3.4
 artalk_css:
   name: artalk
-  file: dist/Artalk.css
+  file: css/Artalk.css
   version: 2.3.4
