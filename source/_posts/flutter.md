@@ -1,7 +1,7 @@
 ---
 title: Flutter上手
-cover: 'https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/bg-19.png'
-background: url(https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/bg-19.png)
+cover: 'https://npm.elemecdn.com/picture-bed@1.0.0//cover/bg-19.png'
+background: url(https://npm.elemecdn.com/picture-bed@1.0.0//cover/bg-19.png)
 tags: design
 comments: true
 date: 2022-07-28 22:53:16
@@ -17,7 +17,7 @@ List.generate(6, (index) => CircleButton(index: index));
 
 ## 基础
 ### 视图结构
-![](https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/flutter-1.png)
+![](https://npm.elemecdn.com/picture-bed@1.0.0//cover/flutter-1.png)
 
 ### StatelessWidget与StatefulWidget区别
 - StatelessWidget: 无状态的widgets是不可变的,这意味着它们的属性不能改变,所有的值都是final

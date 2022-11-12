@@ -1,7 +1,7 @@
 ---
 title: threejs入门
-cover: 'https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/bg-14.jpg'
-background: url(https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/bg-14.jpg)
+cover: 'https://npm.elemecdn.com/picture-bed@1.0.0/cover/bg-14.jpg'
+background: url(https://npm.elemecdn.com/picture-bed@1.0.0/cover/bg-14.jpg)
 tags: threejs
 comments: true
 date: 2022-10-07 15:53:16
@@ -56,7 +56,7 @@ const App = () => {
 export default App
 ```
 
-![](https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/20221007005907.png)
+![](https://npm.elemecdn.com/picture-bed@1.0.0//cover/20221007005907.png)
 
 ---
 

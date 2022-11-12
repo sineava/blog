@@ -1,7 +1,7 @@
 ---
 title: 重读react
-cover: 'https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/bg-17.jpg'
-background: url(https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/bg-17.jpg)
+cover: 'https://npm.elemecdn.com/picture-bed@1.0.0//cover/bg-17.jpg'
+background: url(https://npm.elemecdn.com/picture-bed@1.0.0/cover/bg-17.jpg)
 tags: react
 comments: true
 date: 2022-10-16 10:13:16
@@ -10,7 +10,7 @@ updated: 2022-10-25 10:05:16
 
 ### 基础
 #### [react生命周期](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
-![](https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/20221016232406.png)
+![](https://npm.elemecdn.com/picture-bed@1.0.0//cover/20221016232406.png)
 
 #### JSX表示对象
 ```jsx

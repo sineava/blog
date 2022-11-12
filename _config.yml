@@ -135,7 +135,7 @@ search:
 # hexo-filter-gitcalendar
 # see https://akilar.top/posts/1f9c68c9/
 gitcalendar:
-  enable: true # 开关
+  enable: false # 开关
   priority: 5 #过滤器优先权
   enable_page: / # 应用页面
   # butterfly挂载容器
@@ -242,4 +242,4 @@ encrypt:
 
 # lazyload:
 #   enable: true
-#   loadingImg: https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/loading.gif
+#   loadingImg: https://npm.elemecdn.com/picture-bed@1.0.0//cover/loading.gif

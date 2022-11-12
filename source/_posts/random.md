@@ -1,7 +1,7 @@
 ---
 title: 前端随笔
-cover: 'https://testingcf.jsdelivr.net/gh/sineava/picture-bed@latest/cover/bg-11.jpg'
-background: url(https://testingcf.jsdelivr.net/gh/sineava/picture-bed@latest/cover/bg-11.jpg)
+cover: 'https://npm.elemecdn.com/picture-bed@1.0.0@latest/cover/bg-11.jpg'
+background: url(https://npm.elemecdn.com/picture-bed@1.0.0@latest/cover/bg-11.jpg)
 tags: 随笔
 date: 2022-09-03 15:53:16
 updated: 2022-10-26 23:28:16
@@ -64,12 +64,12 @@ updated: 2022-10-26 23:28:16
 2. f8 -> ctrl+\
 
 ### 调试video标签隐藏元素
-![](https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/random-4.jpg)
-![](https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/random-3.jpg)
+![](https://npm.elemecdn.com/picture-bed@1.0.0//cover/random-4.jpg)
+![](https://npm.elemecdn.com/picture-bed@1.0.0//cover/random-3.jpg)
 
 ## DOM&BOM
 ### screenX,pageX,clientX,offsetX区别
-![](https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/random-1.png)
+![](https://npm.elemecdn.com/picture-bed@1.0.0//cover/random-1.png)
 
 ### 节点克隆
 ```js
@@ -261,7 +261,7 @@ select {
   box-reflect: right;
 }
 ```
-![](https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/interview-2.png)
+![](https://npm.elemecdn.com/picture-bed@1.0.0//cover/interview-2.png)
 
 ### css属性使用html
 ```html

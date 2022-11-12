@@ -1,7 +1,7 @@
 ---
 title: cesium记录
-cover: 'https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/bg-10.jpg'
-background: url(https://testingcf.jsdelivr.net/gh/sineava/picture-bed/cover/bg-10.jpg)
+cover: 'https://npm.elemecdn.com/picture-bed@1.0.0/cover/bg-10.jpg'
+background: url(https://npm.elemecdn.com/picture-bed@1.0.0/cover/bg-10.jpg)
 tags: cesium
 comments: true
 date: 2022-08-29 15:53:16
