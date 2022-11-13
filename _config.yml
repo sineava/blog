@@ -196,9 +196,9 @@ wowjs:
     - class: flink-list-card
       style: animate__animated
       duration: 3s
-    - class: article-sort-item
-      style: animate__slideInRight
-      duration: 1.5s
+    # - class: article-sort-item
+    #   style: animate__slideInRight
+    #   duration: 1.5s
     - class: site-card
       style: animate__flipInY
       duration: 3s
