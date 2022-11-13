@@ -1,7 +1,7 @@
 ---
 title: Typescript初识
-cover: 'https://npm.elemecdn.com/picture-bed@1.0.7/img/bg-07.jpg'
-background: url(https://npm.elemecdn.com/picture-bed@1.0.7/img/bg-07.jpg)
+cover: 'https://npm.elemecdn.com/picture-bed@1.0.8/cover/bg-07.jpg'
+background: url(https://npm.elemecdn.com/picture-bed@1.0.8/cover/bg-07.jpg)
 tags: typescript
 date: 2022-08-24 15:53:16
 updated: 2022-09-03 15:53:16
