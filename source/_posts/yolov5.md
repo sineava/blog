@@ -1,7 +1,7 @@
 ---
 title: yolov5目标检测
-cover: 'https://npm.elemecdn.com/picture-bed@latest/cover/bg-02.jpg'
-background: url(https://npm.elemecdn.com/picture-bed@latest/cover/bg-02.jpg)
+cover: 'https://npm.elemecdn.com/picture-bed@1.0.7/cover/bg-02.jpg'
+background: url(https://npm.elemecdn.com/picture-bed@1.0.7/cover/bg-02.jpg)
 tags: yolo
 comments: true
 date: 2022-08-24 15:53:16

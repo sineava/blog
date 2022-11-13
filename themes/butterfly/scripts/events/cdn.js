@@ -70,7 +70,7 @@ hexo.extend.filter.register('before_generate', () => {
         jsdelivr: `https://cdn.jsdelivr.net/npm/${name}${verType}/${min_file}`,
         unpkg: `https://unpkg.com/${name}${verType}/${file}`,
         cdnjs: `https://cdnjs.cloudflare.com/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}`,
-        eleme: `https://npm.elemecdn.com/picture-bed@latest/${min_cdnjs_file}`,
+        eleme: `https://npm.elemecdn.com/picture-bed@1.0.7/${min_cdnjs_file}`,
         custom: (CDN.custom_format || '').replace(/\$\{(.+?)\}/g, (match, $1) => value[$1])
       }
       

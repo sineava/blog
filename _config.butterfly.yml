@@ -1,4 +1,4 @@
-background: url(https://npm.elemecdn.com/picture-bed@latest/cover/bg-01.jpg)
+background: url(https://npm.elemecdn.com/picture-bed@1.0.7/cover/bg-01.jpg)
 # 插入代码
 inject:
   head:
@@ -56,7 +56,7 @@ comments:
     - Twikoo
 
 avatar:
-  img: 'https://npm.elemecdn.com/picture-bed@latest/common/avatar.png'
+  img: 'https://npm.elemecdn.com/picture-bed@1.0.7/common/avatar.png'
   effect: false
 
 # Sponsor/reward
@@ -64,7 +64,7 @@ reward:
   enable: true
   coinAudio: https://cdn.cbd.int/akilar-candyassets@1.0.36/audio/coin.mp3
   QR_code:
-    - img: https://npm.elemecdn.com/picture-bed@latest/img/wechat.png
+    - img: https://npm.elemecdn.com/picture-bed@1.0.7/img/wechat.png
       link: 
       text: 微信
 

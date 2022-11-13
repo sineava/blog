@@ -1,7 +1,7 @@
 ---
 title: 编程书籍推荐
-cover: 'https://npm.elemecdn.com/picture-bed@latest//cover/bg-18.jpg'
-background: url(https://npm.elemecdn.com/picture-bed@latest//cover/bg-18.jpg)
+cover: 'https://npm.elemecdn.com/picture-bed@1.0.7//cover/bg-18.jpg'
+background: url(https://npm.elemecdn.com/picture-bed@1.0.7//cover/bg-18.jpg)
 comments: true
 date: 2022-10-26 23:17:10
 updated: 2022-10-26 23:17:10
