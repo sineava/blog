@@ -5,6 +5,11 @@
   font-weight: lighter;
 }
 
+.loading-img {
+  background: url(https://npm.elemecdn.com/picture-bed@1.0.7/common/avatar.png) no-repeat center center;
+  background-size: cover;
+}
+
 .icon {
   width: 1em; height: 1em;
   vertical-align: -0.15em;
@@ -157,11 +162,6 @@ div#category {
 /* 页脚透明 */
 #footer {
   background: transparent !important;
-}
-
-/* 头图透明 */
-#page-header.full_page {
-  background-color: transparent !important;
 }
 
 #rightside > div > button {

@@ -4,6 +4,10 @@
   font-display: swap
 }
 
+#page-header {
+  background-color: transparent !important;
+}
+
 .card-clock-location,.card-clock-windDir,span.card-clock-weather {
   font-family: ZhuZiAYuanJWD
 }

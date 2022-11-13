@@ -34,7 +34,7 @@ gulp.task('generate-service-worker', () => {
       '404.html',
       'index.html',
       'js/main.js',
-      'css/index.css',
+      // 'css/index.css',
     ],
     modifyURLPrefix: {
       '': './',
