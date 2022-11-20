@@ -397,7 +397,6 @@ button:not(:disabled) {
 #article-container a {
   font-size: 14px;
   font-weight: 400;
-  color: #aaa;
 }
 
 .video-container {

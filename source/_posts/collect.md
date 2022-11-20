@@ -24,6 +24,12 @@ updated: 2022-08-27 15:53:16
 ### [dribble](https://dribbble.com/)
 ![dribble](https://npm.elemecdn.com/picture-bed@1.0.7//cover/20220827094416.png)
 
+### [数字像素](https://www.shuzixs.com/)
+{% tip info %}
+数据可视化设计素材
+{% endtip %}
+![](https://testingcf.jsdelivr.net/gh/sineava/picture-bed//cover/20221117162220.png)
+
 ### [muzil](https://muz.li/)
 {% tip warning %}
 这是插件,需要chrome安装插件才能使用

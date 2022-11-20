@@ -124,3 +124,4 @@ chrome右上角 -> mote tools -> extension -> load unpacked -> 加载插件项�
 
 ---
 - [csdn插件源码](https://github.com/sineava/sineava/tree/vanilla/extensions/shit-csdn)
+- [chrome插件开发文档](https://developer.chrome.com/docs/extensions/)
