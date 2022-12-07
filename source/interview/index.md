@@ -41,7 +41,7 @@ side: false
 > 负责事项: 独立负责该项目
 > 技术栈: {% label uniapp blue %}
 
-## 个人技术
+## 技术栈
 - Java
 - Vue(vue2/3,vuex/pinia,element/element-plus)
 - React(react,react-router,redux)
@@ -51,3 +51,6 @@ side: false
 - 混合开发(Uniapp,Flutter+Dart)
 - 三维开发(cesium,Threejs(没深入了解))
 - 基础(Promise,async/await语法糖,class/set/map/proto/generator/Symbol/Reflect/Proxy)
+
+## 个人网站
+[daisyui组件库](https://sineava-ui.netlify.app/)
