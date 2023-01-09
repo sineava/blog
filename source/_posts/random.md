@@ -474,6 +474,38 @@ Math.floor() // 向下取整
 Math.ceil()  // 向上取整
 Math.round() // 四舍五入
 Math.trunc()   // 去掉小数
+Math.floor(Math.random() * (max - min + 1)) + min // 范围随机数(min-max)
+```
+
+### WeakMap与Map
+```js
+const map = new Map()
+const wMap = new WeakMap()
+
+;(() => {
+  const foo = { reference: 'test Map' }
+  const bar = { reference: 'test WeakMap' }
+
+  map.set(foo, 'Map')
+  wMap.set(bar, 'WeakMap')
+
+  map.set('k', 'Map')
+  // 会报错,WeakMap不能使用常量(字符串数字等)作为key
+  // wMap.set('k', 'WeakMap')
+
+  console.log(map.get(foo))
+  console.log(wMap.get(bar))
+  console.log(map.get('k'))
+})()
+
+console.log(map) // key无法被垃圾回收机制回收,还是能拿到对象,容易产生内存泄漏
+console.log(wMap) // 引用key对象会被GC回收,此时就无法拿到键值了
+```
+
+### UUID
+```js
+// 🥶不要再用uuid包了
+console.log(crypto.randomUUID()) // 398a0157-c05f-4d12-a414-a9a9e8abe529
 ```
 
 ### 数组乱序
@@ -665,6 +697,18 @@ Reflect.set(obj, 'name', 'ls')
   全屏滚动
 {% endtip %}
 
+### 全局升级指定包
+```bash
+$ npm update -g pnpm
+```
+
+## git
+### 按时间倒序列出commit
+```bash
+# 查看3.0.0之前commit,限定一个
+$ git rev-list -n 1 v3.0.0
+```
+
 ## nginx
 
 ### 设置默认跳转https
@@ -721,3 +765,6 @@ yarn : 无法加载文件 C:\Users\Administrator\AppData\Roaming\npm\yarn.ps1
 $ set-ExecutionPolicy RemoteSigned
 ## step3 get-ExecutionPolicy结果为RemoteSigned则操作成功
 ```
+
+### vscode字体变宽
+> 中文输入法下,shift+空格键解决
