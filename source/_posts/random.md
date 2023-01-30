@@ -217,6 +217,22 @@ removeAttribute(key)
 
 ## CSS
 
+### 地图暗黑(通过css)
+```css
+/* 高德与百度测试效果还可以 */
+selector {
+  filter: invert(1) var(--hue) !important;
+}
+```
+
+### css前缀
+```
+-webkit-（Chrome、Safari、更新版本的 Opera 和 Edge，几乎所有 iOS 浏览器，包括 Firefox for iOS；基本上，任何基于 WebKit 或 Chromium 的浏览器）
+-moz-（火狐）
+-o-（Opera 的旧 pre-WebKit 版本）
+-ms-（Internet Explorer 和 Microsoft Edge，在 Chromium 之前）
+```
+
 ### 美化chrome滚动条
 ```css
 ::-webkit-scrollbar {
@@ -675,6 +691,23 @@ Reflect.set(obj, 'name', 'ls')
 # 方式2:文件后缀改为.mjs
 ```
 
+## SQL
+
+### SQL语言集
+|SQL功能|动词|
+|---|---|
+|数据查询|SELECT|
+|数据定义|CREATE,DROP,ALTER|
+|数据操纵|INSERT,UPDATE,DELETE|
+|数据控制|GRANT,REVOTE|
+
+### 数据定义
+|操作对象|创建|删除|修改
+|---|---|---|---|
+|表|CREATE TABLE|DROP TABLE|ALTER TABLE|
+|视图|CREATE VIEW|DROP VIEW| |
+|索引|CREATE INDEX|DROP INDEX| |
+
 ## NPM
 
 ### normalize.css
@@ -695,6 +728,11 @@ Reflect.set(obj, 'name', 'ls')
 ### fullpage.js
 {% tip success %}
   全屏滚动
+{% endtip %}
+
+### serve
+{% tip success %}
+  启动本地HTTP服务器
 {% endtip %}
 
 ### 全局升级指定包

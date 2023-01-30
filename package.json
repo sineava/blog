@@ -6,7 +6,8 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "npx hexo server"
+    "server": "npx hexo server",
+    "bangumi": "npx hexo bangumi -u"
   },
   "hexo": {
     "version": "6.2.0"

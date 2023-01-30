@@ -66,6 +66,14 @@ viewer.entities.add({
 })
 ```
 
+### 视距元素显示
+```js
+// 当视点距离在0-60000米时显示
+{
+  distanceDisplayCondition: new DistanceDisplayCondition(0, 60000)
+}
+```
+
 ## 进阶
 ### 矢量点位渲染
 ```js
