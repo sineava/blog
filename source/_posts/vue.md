@@ -5,7 +5,7 @@ background: url(https://npm.elemecdn.com/picture-bed@latest/cover/bg-23.jpg)
 tags: vue
 comments: true
 date: 2023-01-29 08:13:42
-updated: 2023-01-29 08:13:42
+updated: 2023-01-31 10:30:14
 ---
 
 ## 基础
@@ -184,6 +184,36 @@ const AsyncComp = defineAsyncComponent(() =>
 - defineExpose
 - defineEmits
 - defineProps
+
+### defineCustomElement与shadow dom(原生)
+```js
+const CustomElement = defineCustomElement({
+  props: {
+    msg: String
+  },
+  template: `<div>{{ msg }}</div>`
+})
+
+customElements.define('mine-element', CustomElement)
+
+// 此时html就可使用<mine-element msg="影子节点"></mine-element>
+```
+
+## ts与组合式api
+### defineProps
+```html
+<script lang="ts" setup>
+// 响应式解构(实验性质): 需要开启plugins: [vue({reactivityTransform: true})]
+const { name, age = 20 } = defineProps<{
+  name: string
+  age?: number
+}>()
+</script>
+
+<template>
+  {{ name }} {{ age }}
+</template>
+```
 
 ## API
 ### 指令
