@@ -237,6 +237,11 @@ tag_plugins:
     carousel: https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
     tag_plugins_css: https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
 
+sitemap:
+  path: sitemap.xml # 索引地图路径
+  tag: false # 标签页不添加到网站地图中
+  category: false # 分类页不添加到网站地图中
+
 encrypt:
   enable: true
 

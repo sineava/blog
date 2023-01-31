@@ -10,7 +10,7 @@
     "bangumi": "npx hexo bangumi -u"
   },
   "hexo": {
-    "version": "6.2.0"
+    "version": "6.3.0"
   },
   "dependencies": {
     "express": "^4.18.1",
@@ -29,6 +29,7 @@
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-index": "^2.0.0",
     "hexo-generator-search": "^2.4.3",
+    "hexo-generator-seo-friendly-sitemap": "^0.2.1",
     "hexo-generator-tag": "^1.0.0",
     "hexo-helper-live2d": "^3.1.1",
     "hexo-lazyload-image-better": "^1.1.5",

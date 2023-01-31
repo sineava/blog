@@ -6,7 +6,7 @@
   <link href="http://sineava.netlify.app/atom.xml" rel="self"/>
   
   <link href="http://sineava.netlify.app/"/>
-  <updated>2022-10-25T02:05:16.000Z</updated>
+  <updated>2023-01-31T02:30:14.000Z</updated>
   <id>http://sineava.netlify.app/</id>
   
   <author>
@@ -15,6 +15,101 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>重读vue</title>
+    <link href="http://sineava.netlify.app/2023/01/29/vue/"/>
+    <id>http://sineava.netlify.app/2023/01/29/vue/</id>
+    <published>2023-01-29T00:13:42.000Z</published>
+    <updated>2023-01-31T02:30:14.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;基础&quot;&gt;&lt;a href=&quot;#基础&quot; class=&quot;headerlink&quot; title=&quot;基础&quot;&gt;&lt;/a&gt;基础&lt;/h2&gt;&lt;h3 id=&quot;风格指南&quot;&gt;&lt;a href=&quot;#风格指南&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="vue" scheme="http://sineava.netlify.app/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>算法小抄</title>
+    <link href="http://sineava.netlify.app/2023/01/28/algorithm/"/>
+    <id>http://sineava.netlify.app/2023/01/28/algorithm/</id>
+    <published>2023-01-28T09:13:42.000Z</published>
+    <updated>2023-01-28T09:13:42.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;排序算法&quot;&gt;&lt;a href=&quot;#排序算法&quot; class=&quot;headerlink&quot; title=&quot;排序算法&quot;&gt;&lt;/a&gt;排序算法&lt;/h2&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="algorithm" scheme="http://sineava.netlify.app/tags/algorithm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>源码调试</title>
+    <link href="http://sineava.netlify.app/2023/01/05/source_code/"/>
+    <id>http://sineava.netlify.app/2023/01/05/source_code/</id>
+    <published>2023-01-05T08:30:16.000Z</published>
+    <updated>2023-01-05T08:30:16.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;React-js&quot;&gt;&lt;a href=&quot;#React-js&quot; class=&quot;headerlink&quot; title=&quot;React.js&quot;&gt;&lt;/a&gt;React.js&lt;/h2&gt;&lt;h3 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="react" scheme="http://sineava.netlify.app/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>来写款心仪的chrome插件吧💖</title>
+    <link href="http://sineava.netlify.app/2022/11/14/extension/"/>
+    <id>http://sineava.netlify.app/2022/11/14/extension/</id>
+    <published>2022-11-14T09:51:16.000Z</published>
+    <updated>2022-11-14T09:51:16.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;tip info&quot;&gt;&lt;p&gt;不要觉得插件很难,它上手真的很简单🤣&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;目录结构&quot;&gt;&lt;a href=&quot;#目录结构&quot; class=&quot;headerlink&quot; title=&quot;目录结构&quot;&gt;&lt;/a&gt;目录结构&lt;/h2&gt;&lt;figure</summary>
+        
+      
+    
+    
+    
+    
+    <category term="extension" scheme="http://sineava.netlify.app/tags/extension/"/>
+    
+  </entry>
   
   <entry>
     <title>重读react</title>
@@ -76,7 +171,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;加载模型&quot;&gt;&lt;a href=&quot;#加载模型&quot; class=&quot;headerlink&quot; title=&quot;加载模型&quot;&gt;&lt;/a&gt;加载模型&lt;/h2&gt;&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+    <summary type="html">&lt;h2 id=&quot;基础元素&quot;&gt;&lt;a href=&quot;#基础元素&quot; class=&quot;headerlink&quot;</summary>
         
       
     
@@ -197,6 +292,7 @@
         
     <summary type="html">&lt;div class=&quot;tip success&quot;&gt;&lt;p&gt;在日常开发中总是会遇到形形色色的网站,很多网站时间一久就淡忘了,所以在这儿把日常觉得有用的网站贴出来,已备以后翻阅,后续也会一直更新&lt;/p&gt;
 &lt;/div&gt;
+
 &lt;h2 id=&quot;ui&quot;&gt;&lt;a href=&quot;#ui&quot;</summary>
         
       
@@ -205,23 +301,6 @@
     
     
     <category term="collect" scheme="http://sineava.netlify.app/tags/collect/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>个人规划</title>
-    <link href="http://sineava.netlify.app/2022/08/27/plan/"/>
-    <id>http://sineava.netlify.app/2022/08/27/plan/</id>
-    <published>2022-08-27T07:53:16.000Z</published>
-    <updated>2022-10-04T07:53:16.000Z</updated>
-    
-    
-    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
-    
-    
-    
-    
-    <category term="规划" scheme="http://sineava.netlify.app/tags/%E8%A7%84%E5%88%92/"/>
     
   </entry>
   
@@ -276,7 +355,7 @@
     <link href="http://sineava.netlify.app/2022/08/24/typescript/"/>
     <id>http://sineava.netlify.app/2022/08/24/typescript/</id>
     <published>2022-08-24T07:53:16.000Z</published>
-    <updated>2022-09-03T07:53:16.000Z</updated>
+    <updated>2023-01-09T06:27:30.000Z</updated>
     
     
       
