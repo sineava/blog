@@ -6,12 +6,11 @@ side: false
 ---
 
 ## 个人信息
-- 手机号: 18323285322
-- 工作年限: 3年(一年后端+两年半前端)
+- 工作年限: 3年(2020/4 - 2022/12)
 - 学历: 大专
 - 期望薪资: 10-12k
-- 英语: 四级,能正常浏览英文网站
-- 工作内容: 框架&组件库维护/新技术推进/日常开发/优化代码&工程化
+- 英语: 四级
+- 工作内容: 框架&组件库维护/新技术推进/日常开发/优化代码/工程化
   
 ## 项目经历
 ### 重庆斯巴达信息技术有限公司
@@ -49,8 +48,8 @@ side: false
 - 自动化部署(CI+CD,常用Vercel/Docker Compose+Git Hooks)
 - 构建工具(Webpack,Rollup,Vite)
 - 混合开发(Uniapp,Flutter+Dart)
-- 三维开发(cesium,Threejs(没深入了解))
+- 三维地图开发(Cesium)
 - 基础(Promise,async/await语法糖,class/set/map/proto/generator/Symbol/Reflect/Proxy)
 
 ## 个人网站
-[daisyui组件库](https://sineava-ui.netlify.app/)
+[组件库](https://sineava-ui.netlify.app/)

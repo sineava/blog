@@ -671,9 +671,9 @@ aside:
     description:
     button:
       enable: true
-      icon: fas fa-book-open
-      text: 个人网站
-      link: https://sineava-ui.netlify.app
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/sineava
   card_announcement:
     enable: true
     content: 欢迎来看我的博客鸭~
