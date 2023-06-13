@@ -17,7 +17,7 @@
     "gulp": "^4.0.2",
     "gulp-htmlmin": "^5.0.1",
     "hexo": "^6.2.0",
-    "hexo-bilibili-bangumi": "^1.8.2",
+    "hexo-bilibili-bangumi": "^1.8.8",
     "hexo-blog-encrypt": "^3.1.6",
     "hexo-butterfly-clock": "^1.0.7",
     "hexo-butterfly-footer-beautify": "^1.0.6",
