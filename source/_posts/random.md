@@ -314,6 +314,24 @@ input[type="radio"]:checked + label[for="female"] {
 }
 ```
 
+### 超出省略号显示
+```css
+/* 单行超出 */
+.single {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* 多行超出 */
+.multiple {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+```
+
 ### 去除select标签箭头
 ```css
 select {
@@ -491,6 +509,12 @@ Math.ceil()  // 向上取整
 Math.round() // 四舍五入
 Math.trunc()   // 去掉小数
 Math.floor(Math.random() * (max - min + 1)) + min // 范围随机数(min-max)
+```
+
+### Date对象
+```js
+// 也可以调用toLocalDateString&toLocalTimeString获取日期&时间字符串
+const [month, day, year, hour, minute, second] = new Date(timestamp).toLocaleString().split(/\/|:|, /)
 ```
 
 ### WeakMap与Map

@@ -7,12 +7,16 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "npx hexo server",
-    "bangumi": "npx hexo bangumi -u"
+    "bangumi": "npx hexo bangumi -u",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "hexo": {
     "version": "6.3.0"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.14",
     "express": "^4.18.1",
     "gulp": "^4.0.2",
     "gulp-htmlmin": "^5.0.1",
@@ -42,6 +46,8 @@
     "hexo-theme-landscape": "^0.0.3",
     "hexo-wordcount": "^6.0.1",
     "live2d-widget-model-koharu": "^1.0.5",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1",
     "workbox-build": "^6.5.4"
   },
   "devDependencies": {
@@ -50,6 +56,7 @@
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-htmlclean": "^2.7.22",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "vitepress": "1.0.0-alpha.66"
   }
 }
