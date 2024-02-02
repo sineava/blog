@@ -1,4 +1,4 @@
-background: url(https://npm.elemecdn.com/picture-bed@1.0.8/cover/bg-06.jpg)
+background: url(/img/cover/bg-21.jpg)
 # 插入代码
 inject:
   head:
@@ -17,32 +17,30 @@ inject:
 menu:
   首页: / || fas fa-home || faa-tada
   时间轴: /archives/ || fas fa-archive
-  书籍: /book/ || fas fa-heart
-  简历: /interview/ || fas fa-music
   追番: /bangumis/ || icon-bilibili || faa-tada
 
 aplayerInject:
-  enable: true
+  enable: false
   per_page: true
 
-electric_clock:
-  enable: true # 开关
-  priority: 8 #过滤器优先权
-  enable_page: all # 应用页面
-  exclude:
-    # - /posts/
-    # - /about/
-  layout: # 挂载容器类型
-    type: class
-    name: sticky_layout
-    index: 0
-  loading: https://cdn.cbd.int/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
-  # clock_css: https://cdn.cbd.int/anzhiyu-blog@latest/css/clock.min.css
-  clock_css: /css/clock.css
-  clock_js: /js/clock.js
-  # clock_js: https://cdn.cbd.int/anzhiyu-blog/js/clock.min.js
-  # clock_js: https://cdn.cbd.int/hexo-butterfly-clock/lib/clock.min.js
-  ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
+# electric_clock:
+#   enable: true # 开关
+#   priority: 8 #过滤器优先权
+#   enable_page: all # 应用页面
+#   exclude:
+#     # - /posts/
+#     # - /about/
+#   layout: # 挂载容器类型
+#     type: class
+#     name: sticky_layout
+#     index: 0
+#   loading: https://cdn.cbd.int/hexo-butterfly-clock/lib/loading.gif #加载动画自定义
+#   # clock_css: https://cdn.cbd.int/anzhiyu-blog@latest/css/clock.min.css
+#   clock_css: /css/clock.css
+#   clock_js: /js/clock.js
+#   # clock_js: https://cdn.cbd.int/anzhiyu-blog/js/clock.min.js
+#   # clock_js: https://cdn.cbd.int/hexo-butterfly-clock/lib/clock.min.js
+#   ip_api: https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0
 
 social:
   Github: https://github.com/sineava || icon-gitHub || faa-tada
@@ -51,9 +49,9 @@ social:
   RSS: atom.xml || icon-rss || faa-tada
   # QQ: tencent://Message/?Uin=2268025923&amp;websiteName=local.edu.com:8888=&amp;Menu=yes || icon-QQ1 || f
   
-comments:
-  use:
-    - Twikoo
+# comments:
+#   use:
+#     - Twikoo
 
 avatar:
   img: 'https://npm.elemecdn.com/picture-bed@1.0.7/common/avatar.png'

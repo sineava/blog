@@ -13,3 +13,5 @@ public/index.html
 public/search.xml
 .deploy*/
 _multiconfig.yml
+.obsidian
+*(私).md
