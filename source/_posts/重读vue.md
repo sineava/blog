@@ -157,6 +157,39 @@ const AsyncComp = defineAsyncComponent(() =>
 1. defineExpose
 2. defineEmits
 3. defineProps
+4. defineModel
+### watchEffect
+```js
+watchEffect(async () => {
+  const response = await fetch(
+    `https://jsonplaceholder.typicode.com/todos/${todoId.value}`
+  )
+  data.value = await response.json()
+})
+```
+### defineModel
+```html
+<!-- 父组件 -->
+<script setup>
+import { ref } from 'vue'
+import Child from './Child.vue'
+
+// 当子组件数据变化,父组件title会自动更新
+const title = ref('')
+</script>
+<template>
+  <MyComponent v-model:title="title" />
+  {{ title }}
+</template>
+
+<!-- 子组件 -->
+<script setup>
+const title = defineModel('title')
+</script>
+<template>
+  <input v-model="title" />
+</template>
+```
 ### defineCustomElement与shadow dom(原生)
 ```js
 const CustomElement = defineCustomElement({
@@ -168,6 +201,43 @@ const CustomElement = defineCustomElement({
 
 customElements.define('mine-element', CustomElement)
 // 此时html就可使用<mine-element msg="影子节点"></mine-element>
+```
+### 指令hook
+```js
+const myDirective = {
+  // 在绑定元素的 attribute前或事件监听器应用前调用
+  created(el, binding, vnode, prevVnode) {},
+  // 在元素被插入到 DOM 前调用
+  beforeMount(el, binding, vnode, prevVnode) {},
+  // 在绑定元素的父组件及他自己的所有子节点都挂载完成后调用
+  mounted(el, binding, vnode, prevVnode) {},
+  // 绑定元素的父组件更新前调用
+  beforeUpdate(el, binding, vnode, prevVnode) {},
+  // 在绑定元素的父组件及他自己的所有子节点都更新后调用
+  updated(el, binding, vnode, prevVnode) {},
+  // 绑定元素的父组件卸载前调用
+  beforeUnmount(el, binding, vnode, prevVnode) {},
+  // 绑定元素的父组件卸载后调用
+  unmounted(el, binding, vnode, prevVnode) {}
+}
+```
+## 内置组件
+### Transition的6种状态
+![](https://cn.vuejs.org/assets/transition-classes.2BufuvZR.png)
+```html
+<Transition name="fade">...</Transition>
+
+<style lang="scss" scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
 ```
 ## ts与组合式api
 ### defineProps
